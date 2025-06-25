@@ -1,0 +1,5 @@
+/etc/xl2tpd/xl2tpd.conf
+/etc/xl2tpd/
+/usr/bin/xl2tpd
+/etc/xl2tpd/xl2tp-secrets
+/usr/bin/xl2tpd-control

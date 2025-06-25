@@ -1,0 +1,6 @@
+set -e
+	if [ "x$D" != "x" ]; then
+		exit 0
+	fi
+
+	systemctl enable avahi-daemon.service

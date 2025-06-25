@@ -1,0 +1,11 @@
+[Unit]
+SourcePath=/usr/bin/eMBMs_TunnelingModule
+Description= eMBMs Tunneling Module service
+After=mount-data.service QCMAP_ConnectionManagerd.service
+
+[Service]
+Restart=no
+ExecStart=/usr/bin/eMBMs_TunnelingModule
+
+[Install]
+WantedBy=multi-user.target

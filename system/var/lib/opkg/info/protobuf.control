@@ -1,0 +1,15 @@
+Package: protobuf
+Version: 3.3.0+git0+a6189acd18-r0
+Description: Protocol Buffers - structured data serialisation mechanism
+ Protocol Buffers are a way of encoding structured data in an efficient
+ yet extensible format. Google uses Protocol Buffers for almost all of its
+ internal RPC protocols and file formats.
+Section: console/tools
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: armv7at2hf-neon
+OE: protobuf
+Homepage: https://github.com/google/protobuf
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), libz1 (>= 1.2.11)
+Source: protobuf_3.3.0.bb

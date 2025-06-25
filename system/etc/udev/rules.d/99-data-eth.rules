@@ -1,0 +1,12 @@
+
+KERNEL=="eth0", SUBSYSTEM=="net", DRIVERS=="atlantic-fwd", ACTION=="add", RUN+="/usr/sbin/ethtool -s $name wol pg"
+# Route ARP packets to ring 0
+KERNEL=="eth0", SUBSYSTEM=="net", DRIVERS=="atlantic-fwd", ACTION=="add", RUN+="/usr/sbin/ethtool -N $name flow-type ether proto 0x0806 action 0 loc 16"
+# Route ICMPv6 packets to ring 0
+KERNEL=="eth0", SUBSYSTEM=="net", DRIVERS=="atlantic-fwd", ACTION=="add", RUN+="/usr/sbin/ethtool -N $name flow-type ip6 l4proto 58 action 0 loc 32"
+# Route ICMPv4 packets to ring 0
+KERNEL=="eth0", SUBSYSTEM=="net", DRIVERS=="atlantic-fwd", ACTION=="add", RUN+="/usr/sbin/ethtool -N $name flow-type ip4 l4proto 1  action 0 loc 33"
+# Route EAPOL packets to ring 0
+KERNEL=="eth0", SUBSYSTEM=="net", DRIVERS=="atlantic-fwd", ACTION=="add", RUN+="/usr/sbin/ethtool -N $name flow-type ether proto 0x888E action 0 loc 17"
+# Disable Rx vlan for Realtek
+KERNEL=="eth0", SUBSYSTEM=="net", DRIVERS=="r8125", ACTION=="add", RUN+="/usr/sbin/ethtool -K $name rxvlan off"

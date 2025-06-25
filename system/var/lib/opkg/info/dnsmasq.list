@@ -1,0 +1,9 @@
+/etc/dnsmasq.d/
+/etc/initscripts/dnsmasq
+/etc/dnsmasq.conf
+/usr/bin/dnsmasq
+/lib/systemd/system/dnsmasq_service@.service
+/etc/systemd/system/dnsmasq.service
+/etc/initscripts/qcmap_start_dnsmasq.sh
+/etc/data/dnsmasq.conf
+/bin/dnsmasq_script.sh

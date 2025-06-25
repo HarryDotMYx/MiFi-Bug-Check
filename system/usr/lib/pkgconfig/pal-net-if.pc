@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: pal-net-if
+Description: GPS pal net if
+Version: @VERSION
+Libs: -L${libdir} -lpal_net_if
+Cflags: -I${includedir} -I${includedir}/pal-net-if

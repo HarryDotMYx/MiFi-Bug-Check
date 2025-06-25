@@ -1,0 +1,11 @@
+Package: data-rc
+Version: git-r0
+Description: Data Services RC scripts and configs
+ Data Services RC scripts and configs.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: armv7at2hf-neon
+OE: data-rc
+Source: data-rc_git.bb

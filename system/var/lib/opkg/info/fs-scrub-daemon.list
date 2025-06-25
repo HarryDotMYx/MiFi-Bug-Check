@@ -1,0 +1,7 @@
+/etc/initscripts/start_fs-scrub-daemon
+/usr/bin/recoveryfs-mtd.sh
+/sbin/fs-scrub-daemon
+/lib/systemd/system/multi-user.target.wants/fs-scrub-daemon.service
+/etc/tmpfiles.d/fs-scrub-daemon-tmpfiles.conf
+/etc/udev/rules.d/fs-scrub-daemon.rules
+/lib/systemd/system/fs-scrub-daemon.service

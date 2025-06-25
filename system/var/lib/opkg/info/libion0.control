@@ -1,0 +1,14 @@
+Package: libion0
+Version: 1.0-r1
+Description: libion version 1.0-r1
+ Build Android libion
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7at2hf-neon
+OE: libion
+Homepage: http://developer.android.com/
+Depends: libc6 (>= 2.28), liblog0 (>= 1.0)
+Provides: libion
+Source: libion.bb

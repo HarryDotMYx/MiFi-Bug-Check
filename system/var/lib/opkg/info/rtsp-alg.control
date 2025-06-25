@@ -1,0 +1,12 @@
+Package: rtsp-alg
+Version: 3.7-r6
+Description: rtsp-alg version 3.7-r6
+ RSTP ALG
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: rtsp-alg
+Depends: kernel-module-nf-conntrack-rtsp-4.14.206-perf, kernel-module-nf-nat-rtsp-4.14.206-perf
+Source: rtsp-alg_3.7.bb

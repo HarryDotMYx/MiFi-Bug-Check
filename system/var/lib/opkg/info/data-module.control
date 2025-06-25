@@ -1,0 +1,13 @@
+Package: data-module
+Version: git-r2
+Description: data-module version git-r2
+ Data Path Optimizer to achieve higher throughputs
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: CLOSED
+Architecture: sdxprairie
+OE: data-module
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), libdsutils1 (>= git), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0)
+Source: data-module_git.bb

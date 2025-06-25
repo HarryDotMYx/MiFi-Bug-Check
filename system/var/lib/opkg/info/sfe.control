@@ -1,0 +1,13 @@
+Package: sfe
+Version: git-r0
+Description: sfe version git-r0
+ Shortcut Forward Engine Driver
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: ISC
+Architecture: sdxprairie
+OE: sfe
+Depends: kernel-module-shortcut-fe-4.14.206-perf, kernel-module-shortcut-fe-cm-4.14.206-perf, kernel-module-shortcut-fe-ipv6-4.14.206-perf
+Provides: kernel-module-shortcut-fe-4.14.206-perf, kernel-module-shortcut-fe-cm-4.14.206-perf, kernel-module-shortcut-fe-ipv6-4.14.206-perf
+Source: sfe_git.bb

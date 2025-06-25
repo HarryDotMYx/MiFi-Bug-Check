@@ -1,0 +1,13 @@
+Package: wireless-tools
+Version: git-r0
+Description: wireless-tools version git-r0
+ WFA certification testing tool for QCA devices
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: sdxprairie
+OE: wireless-tools
+Homepage: https://hewlettpackard.github.io/wireless-tools
+Depends: libc6 (>= 2.28)
+Source: wireless-tools_git.bb

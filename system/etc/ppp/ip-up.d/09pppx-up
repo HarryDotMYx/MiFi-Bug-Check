@@ -1,0 +1,6 @@
+#!/bin/sh
+nvram set_temp ppp_ifname $PPP_IFACE
+nvram set_temp ppp_local_ip $PPP_LOCAL
+nvram set_temp ppp_remote_ip $PPP_REMOTE
+nvram set_temp ppp_dns1 $DNS1
+nvram set_temp ppp_dns2 $DNS2

@@ -1,0 +1,13 @@
+Package: bind-libs
+Version: 9.11.5-P4-r0
+Description: ISC Internet Domain Name Server
+ ISC Internet Domain Name Server.
+Section: console/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: ISC & BSD
+Architecture: armv7at2hf-neon
+OE: bind
+Homepage: http://www.isc.org/sw/bind/
+Depends: libc6 (>= 2.28), libcap2 (>= 2.25), libcrypto1.1 (>= 1.1.1b), libz1 (>= 1.2.11)
+Source: bind_9.11.5-P4.bb

@@ -1,0 +1,11 @@
+/etc/avahi/services/multi.service
+/etc/dbus-1/system.d/
+/usr/sbin/avahi-daemon
+/etc/initscripts/avahi-daemon
+/etc/dbus-1/system.d/avahi-dbus.conf
+/usr/share/avahi/avahi-service.dtd
+/usr/share/dbus-1/system-services/org.freedesktop.Avahi.service
+/etc/avahi/avahi-daemon.conf
+/usr/share/avahi/
+/etc/avahi/services/
+/etc/avahi/hosts

@@ -1,0 +1,4 @@
+/usr/lib/pkgconfig/libqrencode.pc
+/usr/bin/qrencode
+/usr/include/qrencode.h
+/usr/lib/pkgconfig/

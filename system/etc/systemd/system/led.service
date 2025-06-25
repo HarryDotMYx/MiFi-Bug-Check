@@ -1,0 +1,19 @@
+[Unit]
+Description=led
+After=mobile_svr.service qmi_svr.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/led
+
+ExecStop=killall -9 led
+
+Restart=always
+
+RestartSec=5
+
+StartLimitInterval=0
+
+[Install]
+WantedBy=multi-user.target
+

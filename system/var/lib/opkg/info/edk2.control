@@ -1,0 +1,11 @@
+Package: edk2
+Version: 3.0-r1signed
+Description: edk2 version 3.0-r1signed
+ Sign the edk2 bootloader
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: edk2
+Source: edk2_git.bb

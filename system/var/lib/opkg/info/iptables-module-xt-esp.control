@@ -1,0 +1,13 @@
+Package: iptables-module-xt-esp
+Version: 1.6.2-r0
+Description: iptables module xt-esp
+ iptables module xt-esp
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: armv7at2hf-neon
+OE: iptables
+Homepage: http://www.netfilter.org/
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Source: iptables_1.6.2.bb

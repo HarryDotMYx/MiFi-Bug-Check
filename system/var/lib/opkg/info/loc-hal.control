@@ -1,0 +1,12 @@
+Package: loc-hal
+Version: git-r5
+Description: loc-hal version git-r5
+ GPS Loc HAL
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: sdxprairie
+OE: loc-hal
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libloc-core1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Source: loc-hal_git.bb

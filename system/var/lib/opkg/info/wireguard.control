@@ -1,0 +1,13 @@
+Package: wireguard
+Version: 1.0-r0
+Description: wireguard version 1.0-r0
+ wireguard application
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: wireguard
+Homepage: http://support.cdmatech.com
+Depends: bash, libc6 (>= 2.28)
+Source: wireguard.bb

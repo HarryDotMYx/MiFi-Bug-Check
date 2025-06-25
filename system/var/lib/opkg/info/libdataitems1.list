@@ -1,0 +1,10 @@
+/usr/lib/libdataitems.so.1
+/usr/lib/libdataitems.so
+/usr/include/data-items/DataItemConcreteTypeFieldNames.h
+/usr/include/data-items/
+/usr/include/data-items/DataItemConcreteTypeDefaultValues.h
+/usr/include/data-items/DataItemSerializers.h
+/usr/include/data-items/DataItemConcreteTypesExt.h
+/usr/include/data-items/loc_ril.h
+/usr/lib/pkgconfig/data-items.pc
+/usr/lib/libdataitems.so.1.0.0

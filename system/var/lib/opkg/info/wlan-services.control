@@ -1,0 +1,13 @@
+Package: wlan-services
+Version: git-r2
+Description: wlan-services version git-r2
+ WLAN Services required for QCACLD
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: wlan-services
+Homepage: http://support.cdmatech.com
+Depends: data (>= git), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Source: wlan-services_git.bb

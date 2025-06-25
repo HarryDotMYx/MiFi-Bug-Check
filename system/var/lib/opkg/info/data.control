@@ -1,0 +1,13 @@
+Package: data
+Version: git-r26
+Description: data version git-r26
+ Qualcomm Technologies Data Modules (Excluding ConfigDB and DSUtils)
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: armv7at2hf-neon
+OE: data
+Homepage: http://support.cdmatech.com
+Depends: base-files, base-passwd, data-oss (>= git), libc6 (>= 2.28), libconfigdb0 (>= git), libcrypt1 (>= 4.1.1), libcrypto1.1 (>= 1.1.1b), libdiag1 (>= git), libdsutils1 (>= git), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), liblocation-client-api1 (>= git), liblocation-qapi1 (>= git), libpugixml1 (>= 1.8), libqmi-client-helper1 (>= git), libssl1.1 (>= 1.1.1b), libstdc++6 (>= 8.2.0), libsystemdq0 (>= 1.0), libxml0 (>= git), qmi (>= git), qmi-framework (>= git), securemsm-noship (>= 1.0), shadow
+Source: data_git.bb

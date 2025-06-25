@@ -1,0 +1,13 @@
+Package: libwpa-supplicant-8-lib0
+Version: git-r2
+Description: wpa-supplicant-8-lib version git-r2
+ CNSS
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: sdxprairie
+OE: wpa-supplicant-8-lib
+Depends: libc6 (>= 2.28), libnl-3-200 (>= 3.4.0), libnl-genl-3-200 (>= 3.4.0), libnl-nf-3-200 (>= 3.4.0), libnl-route-3-200 (>= 3.4.0)
+Provides: wpa-supplicant-8-lib
+Source: wpa-supplicant-8-lib_git.bb

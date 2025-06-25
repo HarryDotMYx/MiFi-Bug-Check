@@ -1,0 +1,7 @@
+/usr/bin/thermal-engine.sh
+/etc/systemd/system/thermal-engine.service
+/usr/bin/thermal-engine
+/etc/thermal-engine.conf
+/etc/systemd/system/thermal-engine.service.d/
+/etc/systemd/system/multi-user.target.wants/thermal-engine.service
+/etc/systemd/system/thermal-engine.service.d/thermal-engine_system_user.conf

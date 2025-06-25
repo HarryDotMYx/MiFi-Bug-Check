@@ -1,0 +1,15 @@
+Package: iw
+Version: 4.14-r0
+Description: nl80211 based CLI configuration utility for wireless devices
+ iw is a new nl80211 based CLI configuration utility for wireless devices.
+ It supports almost all new drivers that have been added to the kernel
+ recently.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7at2hf-neon
+OE: iw
+Homepage: http://wireless.kernel.org/en/users/Documentation/iw
+Depends: libc6 (>= 2.28), libnl-3-200 (>= 3.4.0), libnl-genl-3-200 (>= 3.4.0)
+Source: iw_4.14.bb

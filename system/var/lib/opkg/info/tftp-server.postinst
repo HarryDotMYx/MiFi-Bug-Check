@@ -1,0 +1,7 @@
+set -e
+        if false; then
+           [ -n "$D" ] && OPT="-r $D" || OPT="-s"
+           # remove all rc.d-links potentially created from alternatives
+           update-rc.d $OPT -f tftp_server.sh remove
+           update-rc.d $OPT tftp_server.sh start 20 2 3 4 5 .
+        fi

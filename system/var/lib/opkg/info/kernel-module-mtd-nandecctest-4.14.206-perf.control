@@ -1,0 +1,13 @@
+Package: kernel-module-mtd-nandecctest-4.14.206-perf
+Version: 4.14-r0
+Description: mtd-nandecctest kernel module
+ mtd-nandecctest kernel module; NAND ECC function test module
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: linux-msm
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-mtd-nandecctest
+Source: linux-msm_4.14.bb

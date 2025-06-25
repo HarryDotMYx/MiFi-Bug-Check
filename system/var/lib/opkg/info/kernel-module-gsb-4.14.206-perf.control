@@ -1,0 +1,13 @@
+Package: kernel-module-gsb-4.14.206-perf
+Version: git-r0
+Description: gsb kernel module
+ gsb kernel module; Generic Software Bridge
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0
+Architecture: sdxprairie
+OE: gsb
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-gsb
+Source: gsb_git.bb

@@ -1,0 +1,12 @@
+Package: tinyproxy
+Version: 1.8.3-r1
+Description: tinyproxy version 1.8.3-r1
+ TinyProxy
+Section: console/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7at2hf-neon
+OE: tinyproxy
+Depends: libc6 (>= 2.28)
+Source: tinyproxy_1.8.3.bb

@@ -1,0 +1,14 @@
+Package: securemsm-noship
+Version: 1.0-1
+Description: securemsm-noship version 1.0-1
+ securemsmnoship with QseecomAPI user space library to interact with
+ qseecom driver
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: armv7at2hf-neon
+OE: securemsm-noship
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), libcrypto1.1 (>= 1.1.1b), libcutils0 (>= 1.0), libgcc1 (>= 8.2.0), libion0 (>= 1.0), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0), libutils0 (>= 1.0), libxml2 (>= 2.9.8)
+Source: securemsm-noship.bb

@@ -1,0 +1,13 @@
+Package: kernel-module-qcrypto-4.14.206-perf
+Version: 4.14-r0
+Description: qcrypto kernel module
+ qcrypto kernel module; QTI Crypto driver
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: linux-msm
+Depends: kernel-4.14.206-perf, kernel-module-qce50-4.14.206-perf
+Provides: kernel-module-qcrypto
+Source: linux-msm_4.14.bb

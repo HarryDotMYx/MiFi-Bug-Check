@@ -1,0 +1,8 @@
+[Unit]
+Description= DPO service
+SourcePath=/usr/bin/data_path_opt
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStart=/usr/bin/data_path_opt -l %I
+ExecStop=/usr/bin/data_path_opt -u %I

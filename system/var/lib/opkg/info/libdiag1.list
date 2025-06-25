@@ -1,0 +1,10 @@
+/etc/systemd/system/multi-user.target.wants/chgrp-diag.service
+/etc/systemd/system/chgrp-diag.service
+/lib/systemd/system/multi-user.target.wants/pcie-diag.service
+/usr/lib/libdiag.so.1.0.0
+/etc/initscripts/pcie-diag
+/etc/systemd/system/chgrp-diag.service.d/
+/usr/lib/libdiag.so.1
+/lib/systemd/system/pcie-diag.service
+/etc/initscripts/chgrp-diag
+/etc/systemd/system/chgrp-diag.service.d/chgrp-diag.conf

@@ -1,0 +1,4347 @@
+Package: shadow-securetty
+Version: 4.6-r3
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 1848
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: iptables-module-xt-cgroup
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5872
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: garden-app
+Version: git-r5
+Depends: libc6 (>= 2.28), libcutils0 (>= 1.0), libdataitems1 (>= git), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libizat-client-api1 (>= git), liblbs-core1 (>= git), libloc-core1 (>= git), liblocation-api1 (>= git), liblocation-client-api1 (>= git), liblocation-integration-api1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 768102
+Installed-Time: 1739341682
+
+Package: iptables-module-ebt-mark-m
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5776
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: libbz2-1
+Version: 1.0.6-r5
+Depends: libc6 (>= 2.28)
+Provides: libbz2
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 53800
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: kernel-module-mtd-readtest-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-mtd-readtest
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 10444
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: libcrypto1.1
+Version: 1.1.1b-r0
+Depends: libc6 (>= 2.28)
+Recommends: openssl-conf
+Provides: libcrypto
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 1745600
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: pam-plugin-mail
+Version: 1.3.0-r5
+Depends: libc6 (>= 2.28), libpam (>= 1.3.0), libpam-suffix
+Provides: pam-plugin-mail-suffix
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9704
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: system-core-adbd
+Version: git-r19
+Depends: libbase0 (>= 1.0), libc6 (>= 2.28), libcutils0 (>= 1.0), libext4-utils0 (>= git), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), liblog0 (>= 1.0), libmincrypt0 (>= git), libselinux1 (>= 2.8), libstdc++6 (>= 8.2.0), system-core (>= git)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 111115
+Installed-Time: 1739341675
+
+Package: libpam
+Version: 1.3.0-r5
+Depends: libc6 (>= 2.28)
+Recommends: libpam-runtime-suffix
+Provides: libpam-suffix
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 57884
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: iputils-arping
+Version: s20180629-r0
+Depends: libc6 (>= 2.28), libcap2 (>= 2.25)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 18096
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: busybox-syslog
+Version: 1.29.3-r0
+Depends: busybox, update-alternatives-opkg
+Conflicts: rsyslog, sysklogd, syslog-ng
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 1327
+Installed-Time: 1739341665
+Auto-Installed: yes
+
+Package: iptables-module-xt-trace
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5716
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: lowi-server
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libloc-base-util1 (>= git), libloc-mq-client1 (>= git), liblowi-client1 (>= git), libnl-3-200 (>= 3.4.0), libnl-genl-3-200 (>= 3.4.0), libstdc++6 (>= 8.2.0), lowi-test
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 273890
+Installed-Time: 1739341678
+
+Package: kernel-module-gpio-input-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-gpio-input
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 9052
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: perl-module-tie-hash
+Version: 5.24.4-r0
+Depends: perl, perl-module-carp, perl-module-warnings-register
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 7639
+Installed-Time: 1739341670
+Auto-Installed: yes
+
+Package: ftm
+Version: git-r1
+Depends: hci-qcomm-init (>= git), libc6 (>= 2.28), libdiag1 (>= git), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libnl-3-200 (>= 3.4.0), libnl-genl-3-200 (>= 3.4.0)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 47180
+Installed-Time: 1739341681
+
+Package: bt-property
+Version: git-r0
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9864
+Installed-Time: 1739341670
+
+Package: libc6
+Version: 2.28-r0
+Provides: eglibc, glibc, rtld(GNU_HASH)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 2305409
+Installed-Time: 1739341660
+Auto-Installed: yes
+
+Package: opkg
+Version: 1:0.3.6-r0
+Depends: libarchive, libc6 (>= 2.28), libopkg1 (>= 0.3.6), opkg-arch-config, update-alternatives-opkg
+Provides: opkg-collateral
+Replaces: opkg-collateral, opkg-nogpg
+Conflicts: opkg-collateral
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Conffiles:
+ /etc/opkg/opkg.conf 882b918d3b6f80af40390aaca25d3f2e
+Installed-Size: 22243
+Installed-Time: 1739341670
+
+Package: system-core-usb
+Version: git-r19
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 319499
+Installed-Time: 1739341662
+
+Package: iptables-module-xt-cpu
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5772
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: gsb
+Version: git-r0
+Depends: kernel-module-gsb-4.14.206-perf
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Time: 1739341665
+
+Package: libcom-err2
+Version: 1.44.3-r0
+Depends: libc6 (>= 2.28)
+Provides: libcomerr
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9760
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: ubus
+Version: git-r0
+Depends: libc6 (>= 2.28), libubox (>= git)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 84148
+Installed-Time: 1739341667
+
+Package: iw
+Version: 4.14-r0
+Depends: libc6 (>= 2.28), libnl-3-200 (>= 3.4.0), libnl-genl-3-200 (>= 3.4.0)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 139196
+Installed-Time: 1739341667
+
+Package: kernel-module-gpio-output-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-gpio-output
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 3792
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: iptables-module-ipt-ecn
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5776
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: iptables-module-ipt-snat
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9872
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: mtd-utils-ubifs
+Version: 2.0.0-r0
+Depends: libc6 (>= 2.28), liblzo2-2 (>= 2.10), libselinux1 (>= 2.8), libuuid1 (>= 2.32.1), libz1 (>= 1.2.11)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 435660
+Installed-Time: 1739341666
+
+Package: busybox
+Version: 1.29.3-r0
+Depends: libc6 (>= 2.28), update-alternatives-opkg
+Recommends: busybox-udhcpc
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 963250
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: libunistring2
+Version: 0.9.10-r0
+Depends: libc6 (>= 2.28)
+Provides: libunistring
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 1435276
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: util-linux-umount
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), libmount1 (>= 2.32.1), update-alternatives-opkg
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 18116
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: policycoreutils-fixfiles
+Version: 2.8-r0
+Depends: findutils, grep, policycoreutils-setfiles
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 10748
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: libasn1c-crt1
+Version: git-r1
+Depends: libasn1c-rtx1 (>= git), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: asn1c-crt
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 124616
+Installed-Time: 1739341670
+Auto-Installed: yes
+
+Package: libsparse0
+Version: 1.0-r0
+Depends: libc6 (>= 2.28), libz1 (>= 1.2.11)
+Provides: libsparse
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 22200
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: libxsde0
+Version: 3.2.0-r2
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: xsde
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 386884
+Installed-Time: 1739341667
+
+Package: modem-shutdown
+Version: 1.0-r2
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 590
+Installed-Time: 1739341658
+
+Package: qca-ssdk-shell
+Version: 1.0-r0
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 681384
+Installed-Time: 1739341662
+
+Package: kernel-module-udp-tunnel-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-udp-tunnel
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 6924
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: libnetmgr-nr-fusion0
+Version: git-r2
+Depends: libc6 (>= 2.28), libdiag1 (>= git), libglib-2.0-0 (>= 2.58.0)
+Provides: nr-fusion
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 9844
+Installed-Time: 1739341670
+
+Package: iptables-module-xt-tos
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 15848
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: systemd-machine-units
+Version: 1.0-r19
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 31424
+Installed-Time: 1739341659
+
+Package: libnl-3-200
+Version: 1:3.4.0-r0
+Depends: libc6 (>= 2.28)
+Provides: libnl
+Replaces: libnl2
+Conflicts: libnl2
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 90430
+Installed-Time: 1739341662
+
+Package: busybox-udhcpc
+Version: 1.29.3-r0
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 2683
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: iputils-rarpd
+Version: s20180629-r0
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 14036
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: ssreq-server
+Version: git-r0
+Depends: libc6 (>= 2.28), libsystemdq0 (>= 1.0), qmi-framework (>= git)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 14343
+Installed-Time: 1739341679
+
+Package: qcacld32-ll
+Version: git-r8_perf_perf
+Depends: kernel-module-wlan-4.14.206-perf
+Provides: kernel-module-wlan-4.14.206-perf
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 6854992
+Installed-Time: 1739341658
+
+Package: mcm-core
+Version: git-r5
+Depends: data (>= git), libc6 (>= 2.28), libdiag1 (>= git), libdsutils1 (>= git), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libqmi-client-helper1 (>= git), libstdc++6 (>= 8.2.0), qmi (>= git), qmi-framework (>= git)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 692039
+Installed-Time: 1739341681
+
+Package: pam-plugin-group
+Version: 1.3.0-r5
+Depends: libc6 (>= 2.28), libpam (>= 1.3.0), libpam-suffix
+Provides: pam-plugin-group-suffix
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9768
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: powerapp-shutdown
+Version: git-r9
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 1836
+Installed-Time: 1739341658
+
+Package: perl-module-io-select
+Version: 5.24.4-r0
+Depends: perl, perl-module-exporter, perl-module-strict, perl-module-vars, perl-module-warnings-register
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 8350
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: iptables-module-xt-devgroup
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9872
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: location-client-api-testapp
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libgps-utils1 (>= git), liblocation-client-api1 (>= git), liblocation-integration-api1 (>= git), libstdc++6 (>= 8.2.0)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 63436
+Installed-Time: 1739341675
+
+Package: start-scripts-misc-daemon
+Version: 1.0-r2
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 2541
+Installed-Time: 1739341659
+
+Package: bash
+Version: 4.4.18-r0
+Depends: base-files, libc6 (>= 2.28), libtinfo5 (>= 6.1+20180630), update-alternatives-opkg
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 817564
+Installed-Time: 1739341666
+Auto-Installed: yes
+
+Package: libpng12
+Version: 1.2.59-r0
+Depends: libc6 (>= 2.28), libz1 (>= 1.2.11)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 228656
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: kernel-module-snd-hwdep-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf, kernel-module-snd-4.14.206-perf
+Provides: kernel-module-snd-hwdep
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 11640
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: conntrack-tools
+Version: 1.0.1-r1
+Depends: libc6 (>= 2.28), libnetfilter-conntrack3 (>= 0.9.1), libnfnetlink0 (>= 1.0.0)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 202508
+Installed-Time: 1739341666
+
+Package: libsys-info-cache1
+Version: git-r1
+Depends: libc6 (>= 2.28), libcutils0 (>= 1.0), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libloc-core1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: sys-info-cache
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 42794
+Installed-Time: 1739341674
+Auto-Installed: yes
+
+Package: libffi6
+Version: 3.2.1-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0)
+Provides: libffi
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 26260
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: strace
+Version: 4.24-r0
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 668020
+Installed-Time: 1739341662
+
+Package: openssl
+Version: 1.1.1b-r0
+Depends: openssl-conf
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 11733
+Installed-Time: 1739341663
+
+Package: common-tools
+Version: git-r2
+Depends: libc6 (>= 2.28), libdiag1 (>= git), libglib-2.0-0 (>= 2.58.0)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 277444
+Installed-Time: 1739341670
+
+Package: libsolv0
+Version: 0.6.35-r0
+Depends: libc6 (>= 2.28)
+Provides: libsolv
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 338428
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: dbus-1
+Version: 1.12.10-r0
+Depends: base-files, base-passwd, libc6 (>= 2.28), libdbus-1-3 (>= 1.12.10), libexpat1 (>= 2.2.6), libselinux1 (>= 2.8), libsystemd0 (>= 239), shadow
+Provides: dbus, dbus-x11
+Replaces: dbus-x11
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Conffiles:
+ /etc/dbus-1/system.conf ba0df1208e214a87771671053c29dbe7
+ /etc/dbus-1/session.conf cc8ea0872ace9945b8fcfc232c316be2
+Installed-Size: 290393
+Installed-Time: 1739341675
+Auto-Installed: yes
+
+Package: iptables-module-xt-limit
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9868
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: nettle
+Version: 3.4-r0
+Depends: libc6 (>= 2.28), libgmp10 (>= 6.1.2)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 421588
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: libion0
+Version: 1.0-r1
+Depends: libc6 (>= 2.28), liblog0 (>= 1.0)
+Provides: libion
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5612
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: powerapp
+Version: git-r9
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 13659
+Installed-Time: 1739341662
+
+Package: pam-plugin-selinux
+Version: 1.3.0-r5
+Depends: libc6 (>= 2.28), libpam (>= 1.3.0), libpam-suffix, libselinux1 (>= 2.8)
+Provides: pam-plugin-selinux-suffix
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 13804
+Installed-Time: 1739341666
+Auto-Installed: yes
+
+Package: diag-vendor
+Version: git-r10
+Depends: libc6 (>= 2.28), libdiag1 (>= git), libglib-2.0-0 (>= 2.58.0)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 112128
+Installed-Time: 1739341670
+
+Package: perl-module-io-socket-unix
+Version: 5.24.4-r0
+Depends: perl, perl-module-carp, perl-module-io-socket, perl-module-strict
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 3423
+Installed-Time: 1739341681
+Auto-Installed: yes
+
+Package: atfwd-daemon
+Version: git-r3
+Depends: data (>= git), libc6 (>= 2.28), libdiag1 (>= git), libdsutils1 (>= git), libshared.so, qmi (>= git), qmi-framework (>= git)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 49469
+Installed-Time: 1739341682
+
+Package: iptables-module-ip6t-icmp6
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9872
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: iptables-module-xt-u32
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9868
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: kernel-modules
+Version: 4.14-r0
+Depends: kernel-module-echainiv-4.14.206-perf, kernel-module-gpio-axis-4.14.206-perf, kernel-module-gpio-event-4.14.206-perf, kernel-module-gpio-input-4.14.206-perf, kernel-module-gpio-matrix-4.14.206-perf, kernel-module-gpio-output-4.14.206-perf, kernel-module-ip6-udp-tunnel-4.14.206-perf, kernel-module-mmc-test-4.14.206-perf, kernel-module-msm-geni-ir-4.14.206-perf, kernel-module-mtd-nandbiterrs-4.14.206-perf, kernel-module-mtd-nandecctest-4.14.206-perf, kernel-module-mtd-oobtest-4.14.206-perf, kernel-module-mtd-pagetest-4.14.206-perf, kernel-module-mtd-readtest-4.14.206-perf, kernel-module-mtd-speedtest-4.14.206-perf, kernel-module-mtd-stresstest-4.14.206-perf, kernel-module-mtd-subpagetest-4.14.206-perf, kernel-module-mtd-torturetest-4.14.206-perf, kernel-module-nvram-linux-4.14.206-perf, kernel-module-qce50-4.14.206-perf, kernel-module-qcedevice-4.14.206-perf, kernel-module-qcrypto-4.14.206-perf, kernel-module-snd-4.14.206-perf, kernel-module-snd-compress-4.14.206-perf, kernel-module-snd-hwdep-4.14.206-perf, kernel-module-snd-pcm-4.14.206-perf, kernel-module-snd-soc-core-4.14.206-perf, kernel-module-snd-timer-4.14.206-perf, kernel-module-soundcore-4.14.206-perf, kernel-module-spidev-4.14.206-perf, kernel-module-u-audio-4.14.206-perf, kernel-module-udp-tunnel-4.14.206-perf, kernel-module-usb-f-uac1-4.14.206-perf, kernel-module-wireguard-4.14.206-perf, kernel-module-xt-physdev-4.14.206-perf
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Time: 1739341675
+
+Package: iptables-module-xt-synproxy
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5780
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: pam-plugin-securetty
+Version: 1.3.0-r5
+Depends: libc6 (>= 2.28), libpam (>= 1.3.0), libpam-suffix
+Provides: pam-plugin-securetty-suffix
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9712
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: kernel-module-gsb-4.14.206-perf
+Version: git-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-gsb
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 53472
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: audit
+Version: 2.8.4-r0
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 195811
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: libopkg1
+Version: 1:0.3.6-r0
+Depends: libarchive (>= 3.3.3), libc6 (>= 2.28), libsolv0 (>= 0.6.35)
+Provides: libopkg
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 121580
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: qce
+Version: dlkm-r0
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 4075
+Installed-Time: 1739341659
+
+Package: iputils-clockdiff
+Version: s20180629-r0
+Depends: libc6 (>= 2.28), libcap2 (>= 2.25)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 13956
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: iptables-module-xt-mac
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5772
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: libuuid1
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28)
+Provides: util-linux-libuuid
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 22196
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: start-scripts-sfs-config
+Version: 1.0-r2
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 1709
+Installed-Time: 1739341659
+
+Package: packagegroup-base-keyboard
+Version: 1.0-r83
+Depends: keymaps
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: start-scripts-qseecomd-daemon
+Version: 1.0-r3
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 1732
+Installed-Time: 1739341659
+
+Package: packagegroup-distro-base
+Version: 1.0-r83
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: liblog0
+Version: 1.0-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: liblog
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 26831
+Installed-Time: 1739341667
+
+Package: perl-module-fcntl
+Version: 5.24.4-r0
+Depends: libc6 (>= 2.28), perl, perl-module-exporter, perl-module-strict, perl-module-xsloader
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 17904
+Installed-Time: 1739341674
+Auto-Installed: yes
+
+Package: iputils-traceroute6
+Version: s20180629-r0
+Depends: libc6 (>= 2.28), libcap2 (>= 2.25)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 13972
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: data-module
+Version: git-r2
+Depends: libc6 (>= 2.28), libdsutils1 (>= git), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 14508
+Installed-Time: 1739341674
+
+Package: iptables-module-ip6t-ipv6header
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9876
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: base-files
+Version: 3.0.14-r89
+Status: install ok installed
+Architecture: sdxprairie
+Conffiles:
+ /etc/hostname 763c1a322e7656a26884c406e8ac6f82
+ /etc/shells a0b758b0ae1eaefda1dfb8b031f7a903
+ /etc/motd d41d8cd98f00b204e9800998ecf8427e
+ /etc/nsswitch.conf 109e33e2c91d1853b5bc56078a96aa18
+ /etc/profile bcbc86e4f0974450c855fba1f716b712
+Installed-Size: 2246
+Installed-Time: 1739341658
+
+Package: iptables-module-xt-pkttype
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5776
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: hci-qcomm-init
+Version: git-r0
+Depends: libc6 (>= 2.28), libcutils0 (>= 1.0), libdiag1 (>= git), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0), qmi (>= git), qmi-framework (>= git)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 280920
+Installed-Time: 1739341679
+
+Package: iptables-module-ipt-realm
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5772
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: kernel-module-snd-soc-core-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf, kernel-module-snd-4.14.206-perf, kernel-module-snd-compress-4.14.206-perf, kernel-module-snd-pcm-4.14.206-perf
+Provides: kernel-module-snd-soc-core
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 201056
+Installed-Time: 1739341670
+Auto-Installed: yes
+
+Package: iptables-module-xt-connbytes
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9872
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: iptables-module-xt-nflog
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5776
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: openvpn
+Version: 2.5.3-r0
+Depends: libc6 (>= 2.28), libcrypto1.1 (>= 1.1.1b), liblzo2-2 (>= 2.10), libpam (>= 1.3.0), libssl1.1 (>= 1.1.1b)
+Recommends: kernel-module-tun
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 1231504
+Installed-Time: 1739341669
+
+Package: openssl-bin
+Version: 1.1.1b-r0
+Depends: libc6 (>= 2.28), libcrypto1.1 (>= 1.1.1b), libssl1.1 (>= 1.1.1b), perl
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 504270
+Installed-Time: 1739341669
+
+Package: grep
+Version: 3.1-r0
+Depends: libc6 (>= 2.28), libpcre1 (>= 8.42), update-alternatives-opkg
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 174012
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: shadow-base
+Version: 4.6-r0
+Depends: audit (>= 2.8.4), libc6 (>= 2.28), libcrypt1 (>= 4.1.1), libpam (>= 1.3.0), update-alternatives-opkg
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 112092
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: iptables-module-xt-length
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5772
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: libstdc++6
+Version: 8.2.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0)
+Provides: libstdc++
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 1042316
+Installed-Time: 1739341665
+
+Package: iptables-module-ip6t-eui64
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5716
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: kernel-module-gpio-event-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-gpio-event
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 6376
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: iptables-module-xt-rpfilter
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5776
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: coreutils
+Version: 8.30-r0
+Depends: libattr1 (>= 2.4.47), libc6 (>= 2.28), libselinux1 (>= 2.8), update-alternatives-opkg
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 143024
+Installed-Time: 1739341666
+
+Package: pam-plugin-motd
+Version: 1.3.0-r5
+Depends: libc6 (>= 2.28), libpam (>= 1.3.0), libpam-suffix
+Provides: pam-plugin-motd-suffix
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5620
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: pam-plugin-warn
+Version: 1.3.0-r5
+Depends: libc6 (>= 2.28), libpam (>= 1.3.0), libpam-suffix
+Provides: pam-plugin-warn-suffix
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5608
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: iptables-module-xt-led
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5776
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: packagegroup-selinux-minimal
+Version: 1.0-r0
+Depends: coreutils, libselinux-bin, libselinux1, libsemanage1, libsepol1, policycoreutils-fixfiles, policycoreutils-secon, policycoreutils-semodule, policycoreutils-sestatus, policycoreutils-setfiles, refpolicy
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Time: 1739341669
+
+Package: libdbus-1-3
+Version: 1.12.10-r0
+Depends: libc6 (>= 2.28), libsystemd0 (>= 239)
+Recommends: dbus-1
+Provides: dbus-lib
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 210624
+Installed-Time: 1739341673
+Auto-Installed: yes
+
+Package: iptables-module-xt-statistic
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5776
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: pam-plugin-rootok
+Version: 1.3.0-r5
+Depends: libc6 (>= 2.28), libpam (>= 1.3.0), libpam-suffix, libselinux1 (>= 2.8)
+Provides: pam-plugin-rootok-suffix
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5612
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: libqmi-client-helper1
+Version: git-r0
+Depends: libc6 (>= 2.28), libdsutils1 (>= git), qmi (>= git), qmi-framework (>= git)
+Provides: qmi-client-helper
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 13880
+Installed-Time: 1739341678
+Auto-Installed: yes
+
+Package: libdsutils1
+Version: git-r7
+Depends: libc6 (>= 2.28), libdiag1 (>= git), libglib-2.0-0 (>= 2.58.0)
+Provides: dsutils
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 54840
+Installed-Time: 1739341670
+Auto-Installed: yes
+
+Package: protobuf
+Version: 3.3.0+git0+a6189acd18-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), libz1 (>= 1.2.11)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 1900132
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: iptables-module-xt-esp
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5772
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: kernel-module-nvram-linux-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-nvram-linux
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 20680
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-hbh
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5772
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: openssl-conf
+Version: 1.1.1b-r0
+Provides: openssl10-conf
+Replaces: openssl10-conf
+Conflicts: openssl10-conf
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Conffiles:
+ /etc/ssl/openssl.cnf fb92a2dab53f11f4f5f22adc5257b553
+Installed-Size: 10909
+Installed-Time: 1739341660
+Auto-Installed: yes
+
+Package: dnsmasq
+Version: 2.79-r5
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Conffiles:
+ /etc/data/dnsmasq.conf 92088df1f6980a26595f282d37d9e480
+Installed-Size: 266615
+Installed-Time: 1739341662
+
+Package: kernel-module-r8125-4.14.206-perf
+Version: 1.0-r0_perf_perf
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-r8125
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 188072
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: libarchive
+Version: 3.3.3-r0
+Depends: libbz2-1 (>= 1.0.6), libc6 (>= 2.28), liblzma5 (>= 5.2.4), liblzo2-2 (>= 2.10), libxml2 (>= 2.9.8), libz1 (>= 1.2.11)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 601524
+Installed-Time: 1739341666
+Auto-Installed: yes
+
+Package: libmount1
+Version: 2.32.1-r0
+Depends: libblkid1 (>= 2.32.1), libc6 (>= 2.28), libselinux1 (>= 2.8), libuuid1 (>= 2.32.1)
+Provides: util-linux-libmount
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 243620
+Installed-Time: 1739341666
+Auto-Installed: yes
+
+Package: util-linux-mount
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), libmount1 (>= 2.32.1), libselinux1 (>= 2.8), update-alternatives-opkg
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 30408
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: perl-module-io-handle
+Version: 5.24.4-r0
+Depends: perl, perl-module-carp, perl-module-exporter, perl-module-io, perl-module-io-file, perl-module-selectsaver, perl-module-strict, perl-module-symbol
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 17176
+Installed-Time: 1739341675
+Auto-Installed: yes
+
+Package: edk2
+Version: 3.0-r1signed
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 1084478
+Installed-Time: 1739341658
+
+Package: libnetfilter-conntrack3
+Version: 0.9.1-r0
+Depends: libc6 (>= 2.28), libnfnetlink0 (>= 1.0.0)
+Provides: libnetfilter-conntrack
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 50484
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-snpt
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5776
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: kernel-module-mtd-stresstest-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-mtd-stresstest
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 10724
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: libsepol1
+Version: 2.8-r0
+Depends: libc6 (>= 2.28)
+Provides: libsepol
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 462116
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: libtinfo5
+Version: 6.1+20180630-r0
+Depends: libc6 (>= 2.28)
+Recommends: ncurses-terminfo-base
+Suggests: ncurses-terminfo
+Provides: ncurses-libtinfo
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 112668
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: iptables-module-xt-cluster
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5776
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: libgps-utils1
+Version: git-r1
+Depends: libc6 (>= 2.28), libcutils0 (>= 1.0), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: gps-utils
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 300808
+Installed-Time: 1739341670
+
+Package: qrencode
+Version: git-r0
+Depends: libc6 (>= 2.28), libpng12 (>= 1.2.59)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 80225
+Installed-Time: 1739341666
+
+Package: qmi-simple-ril
+Version: 1.0-r1
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0), qmi (>= git), qmi-framework (>= git)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 121424
+Installed-Time: 1739341679
+
+Package: iptables-module-ipt-netmap
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5780
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: perl-module-xsloader
+Version: 5.24.4-r0
+Depends: perl, perl-module-carp, perl-module-dynaloader
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 11818
+Installed-Time: 1739341670
+Auto-Installed: yes
+
+Package: zerotierone
+Version: 1.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 3988236
+Installed-Time: 1739341667
+
+Package: kernel-module-mtd-pagetest-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-mtd-pagetest
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 17336
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: iptables-module-xt-audit
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5776
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: wlan-sigma-dut
+Version: git-r0
+Depends: libc6 (>= 2.28), libnl-3-200 (>= 3.4.0), libnl-genl-3-200 (>= 3.4.0)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 542204
+Installed-Time: 1739341667
+
+Package: libselinux1
+Version: 2.8-r0
+Depends: libc6 (>= 2.28), libpcre1 (>= 8.42)
+Provides: libselinux
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 104124
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: kernel-module-xt-physdev-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-xt-physdev
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 5320
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: iptables-module-xt-socket
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 6072
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: pam-plugin-permit
+Version: 1.3.0-r5
+Depends: libc6 (>= 2.28), libpam (>= 1.3.0), libpam-suffix
+Provides: pam-plugin-permit-suffix
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5612
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: data
+Version: git-r26
+Depends: base-files, base-passwd, data-oss (>= git), libc6 (>= 2.28), libconfigdb0 (>= git), libcrypt1 (>= 4.1.1), libcrypto1.1 (>= 1.1.1b), libdiag1 (>= git), libdsutils1 (>= git), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), liblocation-client-api1 (>= git), liblocation-qapi1 (>= git), libpugixml1 (>= 1.8), libqmi-client-helper1 (>= git), libssl1.1 (>= 1.1.1b), libstdc++6 (>= 8.2.0), libsystemdq0 (>= 1.0), libxml0 (>= git), qmi (>= git), qmi-framework (>= git), securemsm-noship (>= 1.0), shadow
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5440047
+Installed-Time: 1739341681
+
+Package: iproute2
+Version: 3.16.0-r0
+Depends: libc6 (>= 2.28), update-alternatives-opkg
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 544348
+Installed-Time: 1739341662
+
+Package: data-oss
+Version: git-r4
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 45552
+Installed-Time: 1739341669
+
+Package: iptables-module-xt-notrack
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 10500
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: bt-app
+Version: git-r0
+Depends: libbtvendorhal0 (>= git), libc6 (>= 2.28), libcutils0 (>= 1.0), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 598060
+Installed-Time: 1739341671
+
+Package: hostap-daemon-qcacld
+Version: git-r4.2
+Depends: libc6 (>= 2.28), libcrypto1.1 (>= 1.1.1b), libnl-3-200 (>= 3.4.0), libnl-genl-3-200 (>= 3.4.0), libwpa-supplicant-8-lib0 (>= git)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 874452
+Installed-Time: 1739341670
+
+Package: kernel-module-u-audio-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf, kernel-module-snd-4.14.206-perf, kernel-module-snd-pcm-4.14.206-perf
+Provides: kernel-module-u-audio
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 10540
+Installed-Time: 1739341670
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-ah
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5772
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: kernel-module-nf-nat-rtsp-4.14.206-perf
+Version: 3.7-r6
+Depends: kernel-4.14.206-perf, kernel-module-nf-conntrack-rtsp-4.14.206-perf
+Provides: kernel-module-nf-nat-rtsp
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 8456
+Installed-Time: 1739341665
+Auto-Installed: yes
+
+Package: packagegroup-base-ipv6
+Version: 1.0-r83
+Recommends: kernel-module-ipv6
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: miniupnpd
+Version: 1.9.20150307-r8
+Depends: data (>= git), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libnfnetlink0 (>= 1.0.0), libstdc++6 (>= 8.2.0)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 114755
+Installed-Time: 1739341681
+
+Package: iptables-module-ip6t-redirect
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5780
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: util-linux-agetty
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), update-alternatives-opkg
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 39176
+Installed-Time: 1739341662
+Auto-Installed: yes
+
+Package: iptables-module-xt-quota
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5772
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: libxml0
+Version: git-r9
+Depends: libc6 (>= 2.28), libdiag1 (>= git), libglib-2.0-0 (>= 2.58.0)
+Provides: xmllib
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 30324
+Installed-Time: 1739341670
+Auto-Installed: yes
+
+Package: libxml2
+Version: 2.9.8-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libz1 (>= 1.2.11)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 990380
+Installed-Time: 1739341664
+
+Package: libmincrypt0
+Version: git-r0
+Depends: libc6 (>= 2.28)
+Provides: libmincrypt
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 26152
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: kernel-module-qcedevice-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf, kernel-module-qce50-4.14.206-perf
+Provides: kernel-module-qcedevice
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 40864
+Installed-Time: 1739341665
+Auto-Installed: yes
+
+Package: perl-module-sys-hostname
+Version: 5.24.4-r0
+Depends: libc6 (>= 2.28), perl, perl-module-carp, perl-module-exporter, perl-module-posix, perl-module-strict, perl-module-xsloader
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9179
+Installed-Time: 1739341678
+Auto-Installed: yes
+
+Package: kernel-module-wireguard-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf, kernel-module-ip6-udp-tunnel-4.14.206-perf, kernel-module-udp-tunnel-4.14.206-perf
+Provides: kernel-module-wireguard
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 135012
+Installed-Time: 1739341665
+Auto-Installed: yes
+
+Package: libsystemdq0
+Version: 1:1.0-r0
+Depends: base-files, base-passwd, dbus-1, kmod, libc6 (>= 2.28), libcap2 (>= 2.25), libmount1 (>= 2.32.1), shadow, systemd-conf, update-rc.d, util-linux-agetty, util-linux-fsck, util-linux-mount, volatile-binds
+Provides: libsystemdq
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 355348
+Installed-Time: 1739341678
+Auto-Installed: yes
+
+Package: libavahi-common3
+Version: 0.7-r12.0
+Depends: libc6 (>= 2.28)
+Provides: libavahi-common
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 34612
+Installed-Time: 1739341662
+
+Package: perl-module-io
+Version: 5.24.4-r0
+Depends: libc6 (>= 2.28), perl, perl-module-carp, perl-module-strict, perl-module-warnings, perl-module-xsloader
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 15252
+Installed-Time: 1739341674
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-dnat
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9872
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: qca-ssdk-nohnat
+Version: 1.0-r0_perf_perf
+Depends: kernel-module-qca-ssdk-4.14.206-perf
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Time: 1739341665
+
+Package: libblkid1
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), libuuid1 (>= 2.32.1)
+Provides: util-linux-libblkid
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 215248
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: policycoreutils-secon
+Version: 2.8-r0
+Depends: libc6 (>= 2.28), libselinux1 (>= 2.8)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 18556
+Installed-Time: 1739341666
+Auto-Installed: yes
+
+Package: os-release
+Version: 1.0-r0
+Status: install ok installed
+Architecture: all
+Installed-Size: 100
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: qcacld32-ll-mag
+Version: 1.0-r8_perf_perf
+Depends: kernel-module-wlan-mag-4.14.206-perf
+Provides: kernel-module-wlan-mag-4.14.206-perf
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 6720304
+Installed-Time: 1739341659
+
+Package: iptables-module-xt-ipcomp
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5772
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: libsqlite3-0
+Version: 3:3.23.1-r0
+Depends: libc6 (>= 2.28)
+Provides: libsqlite3
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 652324
+Installed-Time: 1739341662
+Auto-Installed: yes
+
+Package: libcutils0
+Version: 1.0-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), liblog0 (>= 1.0)
+Provides: libcutils
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 42857
+Installed-Time: 1739341669
+
+Package: volatile-binds
+Version: 1.0-r0
+Status: install ok installed
+Architecture: all
+Installed-Size: 8225
+Installed-Time: 1739341659
+
+Package: tcpdump
+Version: 4.1.1-r2
+Depends: libc6 (>= 2.28), libpcap1 (>= 1.8.1)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 620164
+Installed-Time: 1739341664
+
+Package: sfe
+Version: git-r0
+Depends: kernel-module-shortcut-fe-4.14.206-perf, kernel-module-shortcut-fe-cm-4.14.206-perf, kernel-module-shortcut-fe-ipv6-4.14.206-perf
+Provides: kernel-module-shortcut-fe-4.14.206-perf, kernel-module-shortcut-fe-cm-4.14.206-perf, kernel-module-shortcut-fe-ipv6-4.14.206-perf
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 123460
+Installed-Time: 1739341659
+
+Package: avahi-dnsconfd
+Version: 0.7-r12.0
+Depends: libavahi-common3 (>= 0.7), libc6 (>= 2.28), libdaemon0 (>= 0.14)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 16759
+Installed-Time: 1739341665
+
+Package: libpam-runtime
+Version: 1.3.0-r5
+Depends: libpam-suffix, pam-plugin-deny-suffix, pam-plugin-permit-suffix, pam-plugin-selinux, pam-plugin-unix-suffix, pam-plugin-warn-suffix
+Provides: libpam-runtime-suffix
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Conffiles:
+ /etc/pam.d/common-session c50a38c29d83c5fdf518301e33d216d9
+ /etc/pam.d/common-auth 69cf68857b21d93054461246c51b6960
+ /etc/pam.d/common-password 9931234aae9afe5ba8aa755acef90e69
+ /etc/pam.d/common-session-noninteractive ca51dc0e2f5b71591fc00a59e1f32db8
+ /etc/pam.d/common-account 9d50c7dda6ba8b6a8422fd4453722324
+ /etc/security/limits.conf 0bc96d8cec6f85bd2b60b27483843297
+Installed-Size: 23932
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: fs-scrub-daemon
+Version: 1.0-r1
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0), qmi-framework (>= git)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 29061
+Installed-Time: 1739341679
+
+Package: iptables-module-ip6t-netmap
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5780
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: policycoreutils-sestatus
+Version: 2.8-r0
+Depends: libc6 (>= 2.28), libselinux1 (>= 2.8)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 14172
+Installed-Time: 1739341666
+Auto-Installed: yes
+
+Package: init-mss
+Version: git-r7
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 8021
+Installed-Time: 1739341662
+
+Package: securemsm
+Version: git-r1
+Depends: libc6 (>= 2.28), libcutils0 (>= 1.0), libgcc1 (>= 8.2.0), libion0 (>= 1.0), securemsm-noship (>= 1.0)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 64225
+Installed-Time: 1739341671
+
+Package: libxtadapter1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libizat-core1 (>= git), libloc-core1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: xt-adapter
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 9788
+Installed-Time: 1739341681
+
+Package: fluoride
+Version: git-r0
+Depends: libbtvendorhal0 (>= git), libc6 (>= 2.28), libcutils0 (>= 1.0), liblog0 (>= 1.0), libz1 (>= 1.2.11)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 2134993
+Installed-Time: 1739341671
+
+Package: kernel-module-echainiv-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-echainiv
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 5612
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: ethtool
+Version: 4.19-r0
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 277032
+Installed-Time: 1739341662
+
+Package: pptp
+Version: 1.0-r0
+Depends: libc6 (>= 2.28), perl
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 54198
+Installed-Time: 1739341669
+
+Package: iptables-module-xt-rateest
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 19748
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: libnlp-client-api1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libizat-client-api1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: nlp-client-api
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 54932
+Installed-Time: 1739341678
+
+Package: powerapp-reboot
+Version: git-r9
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 2017
+Installed-Time: 1739341658
+
+Package: kernel-module-snd-pcm-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf, kernel-module-snd-4.14.206-perf, kernel-module-snd-timer-4.14.206-perf
+Provides: kernel-module-snd-pcm
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 104228
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: perl-module-symbol
+Version: 5.24.4-r0
+Depends: perl, perl-module-exporter
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 4794
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-masquerade
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5784
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: thermal-engine
+Version: git-r12
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0), qmi-framework (>= git)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 6486152
+Installed-Time: 1739341679
+
+Package: libpcre1
+Version: 8.42-r0
+Depends: libc6 (>= 2.28)
+Provides: libpcre
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 214588
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: iputils-tracepath
+Version: s20180629-r0
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 13964
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: perl-module-io-file
+Version: 5.24.4-r0
+Depends: perl, perl-module-carp, perl-module-exporter, perl-module-fcntl, perl-module-io-seekable, perl-module-selectsaver, perl-module-strict, perl-module-symbol
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 4902
+Installed-Time: 1739341679
+Auto-Installed: yes
+
+Package: alk
+Version: git-r0
+Depends: data (>= git), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libjson-c4 (>= 0.13.1), libsqlite3-0 (>= 3.23.1), libstdc++6 (>= 8.2.0), libubox (>= git), libxml2 (>= 2.9.8), qmi (>= git), qmi-framework (>= git), ubus (>= git)
+Provides: libshared.so
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 5207253
+Installed-Time: 1739341682
+
+Package: diag-reboot-app
+Version: git-r5
+Depends: base-files, base-passwd, libc6 (>= 2.28), libdiag1 (>= git), libglib-2.0-0 (>= 2.58.0), shadow
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 10427
+Installed-Time: 1739341674
+
+Package: libgmp10
+Version: 6.1.2-r0
+Depends: libc6 (>= 2.28)
+Provides: gmp
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 321184
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: systemd-conf
+Version: 1.0-r0
+Status: install ok installed
+Architecture: sdxprairie
+Conffiles:
+ /etc/machine-id d41d8cd98f00b204e9800998ecf8427e
+ /etc/systemd/journald.conf 3aeb745fc84fde4ca1519bc74f6ee865
+ /etc/systemd/logind.conf 784f1f2b107a55aa300da987b2ed7573
+ /etc/systemd/system.conf 1e9fe50d1e49bb3936ac8aecdd85a92d
+ /etc/systemd/user.conf 675370e2d80a4ad957202e68c1b4aaee
+Installed-Size: 4881
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: libloc-mq-client1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libloc-base-util1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: loc-mq-client
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 50896
+Installed-Time: 1739341671
+Auto-Installed: yes
+
+Package: xl2tpd
+Version: 1.0-r0
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 87328
+Installed-Time: 1739341662
+
+Package: r8125
+Version: 1.0-r0_perf_perf
+Depends: kernel-module-r8125-4.14.206-perf
+Provides: kernel-module-r8125
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 164
+Installed-Time: 1739341665
+
+Package: libconfigdb0
+Version: git-r5
+Depends: libc6 (>= 2.28), libdiag1 (>= git), libdsutils1 (>= git), libglib-2.0-0 (>= 2.58.0), libxml0 (>= git)
+Provides: configdb
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 13872
+Installed-Time: 1739341674
+Auto-Installed: yes
+
+Package: libnetmgr-rmnet-ext0
+Version: git-r2
+Depends: data (>= git), data-oss (>= git), libc6 (>= 2.28), libdiag1 (>= git), libdsutils1 (>= git), libglib-2.0-0 (>= 2.58.0), qmi (>= git)
+Provides: rmnet-ext
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 12384
+Installed-Time: 1739341681
+
+Package: iptables-module-xt-addrtype
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9972
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: qmi-shutdown-modem
+Version: git-r4
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0), qmi (>= git), qmi-framework (>= git)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 10665
+Installed-Time: 1739341679
+
+Package: iptables-module-ip6t-srh
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9868
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: qc-bt-daemon
+Version: git-r0
+Depends: data (>= git), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0), qmi-framework (>= git)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 18048
+Installed-Time: 1739341681
+
+Package: perl-module-socket
+Version: 5.24.4-r0
+Depends: libc6 (>= 2.28), perl, perl-module-carp, perl-module-exporter, perl-module-scalar-util, perl-module-strict, perl-module-warnings-register, perl-module-xsloader
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 62579
+Installed-Time: 1739341678
+Auto-Installed: yes
+
+Package: libdiag1
+Version: git-r10
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0), liblog0 (>= 1.0), libtime-genoff1 (>= git)
+Provides: diag
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 157178
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: pam-plugin-nologin
+Version: 1.3.0-r5
+Depends: libc6 (>= 2.28), libpam (>= 1.3.0), libpam-suffix
+Provides: pam-plugin-nologin-suffix
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5612
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: iptables-module-xt-standard
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5720
+Installed-Time: 1739341665
+Auto-Installed: yes
+
+Package: opkg-arch-config
+Version: 1.0-r1
+Provides: opkg-config-base
+Replaces: opkg-config-base
+Conflicts: opkg-config-base
+Status: install ok installed
+Architecture: sdxprairie
+Conffiles:
+ /etc/opkg/arch.conf 0539e500500a9327cc78515a3db36bdd
+Installed-Size: 271
+Installed-Time: 1739341660
+Auto-Installed: yes
+
+Package: libidn2-0
+Version: 2.0.5-r0
+Depends: libc6 (>= 2.28), libunistring2 (>= 0.9.10)
+Provides: libidn2
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 112124
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: libdataitems1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libloc-base-util1 (>= git), libloc-core1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: data-items
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 149844
+Installed-Time: 1739341675
+
+Package: refpolicy-mls
+Version: 2.20170204-r0
+Provides: refpolicy, sepolicy
+Status: install ok installed
+Architecture: sdxprairie
+Conffiles:
+ /etc/selinux/config 81a3a5cc279f5b2f103393e928d3c57d
+Installed-Size: 6803405
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: qmi
+Version: git-r13
+Depends: libc6 (>= 2.28), libconfigdb0 (>= git), libdiag1 (>= git), libdsutils1 (>= git)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 389384
+Installed-Time: 1739341675
+
+Package: ddclient
+Version: 3.8.1-r7
+Depends: perl, perl-module-autoloader, perl-module-carp, perl-module-config, perl-module-constant, perl-module-dynaloader, perl-module-errno, perl-module-exporter, perl-module-exporter-heavy, perl-module-getopt-long, perl-module-integer, perl-module-io, perl-module-io-handle, perl-module-io-select, perl-module-io-socket, perl-module-io-socket-inet, perl-module-io-socket-unix, perl-module-overload, perl-module-selectsaver, perl-module-socket, perl-module-strict, perl-module-symbol, perl-module-sys-hostname, perl-module-vars, perl-module-warnings, perl-module-warnings-register, perl-module-xsloader
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 139794
+Installed-Time: 1739341683
+
+Package: liblocation-api1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: location-api
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 108244
+Installed-Time: 1739341671
+
+Package: qapi-demo-app
+Version: git-r5
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libgps-utils1 (>= git), liblocation-qapi1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 38460
+Installed-Time: 1739341678
+
+Package: kernel-module-qca-ssdk-4.14.206-perf
+Version: 1.0-r0_perf_perf
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-qca-ssdk
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 1192724
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: iptables-module-xt-helper
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5772
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: data-ipa-cfg-mgr
+Version: git-r4
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libnetfilter-conntrack3 (>= 0.9.1), libstdc++6 (>= 8.2.0), libxml2 (>= 2.9.8)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 830251
+Installed-Time: 1739341670
+
+Package: subsystem-ramdump
+Version: git-r3
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 18438
+Installed-Time: 1739341669
+
+Package: perl-module-scalar-util
+Version: 5.24.4-r0
+Depends: perl, perl-module-carp, perl-module-exporter, perl-module-list-util, perl-module-strict
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 10306
+Installed-Time: 1739341675
+Auto-Installed: yes
+
+Package: xtwifi-inet-agent
+Version: git-r1
+Depends: libc6 (>= 2.28), libcurl4 (>= 7.61.0), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libloc-base-util1 (>= git), libloc-mq-client1 (>= git), libstdc++6 (>= 8.2.0)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 60926
+Installed-Time: 1739341674
+
+Package: libavahi-glib1
+Version: 0.7-r12.0
+Depends: libavahi-common3 (>= 0.7), libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0)
+Provides: libavahi-glib
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9840
+Installed-Time: 1739341669
+
+Package: libloc-socket1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: loc-socket
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 26393
+Installed-Time: 1739341671
+
+Package: iptables-module-xt-policy
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9968
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: liblocation-api-msg-proto1
+Version: git-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0), protobuf (>= 3.3.0+git0+a6189acd18)
+Provides: location-api-msg-proto
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 939684
+Installed-Time: 1739341671
+Auto-Installed: yes
+
+Package: iptables-module-xt-comment
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5776
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: iptables-module-xt-hmark
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9976
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: iptables-module-xt-string
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9968
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: tinyproxy
+Version: 1.8.3-r1
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 78888
+Installed-Time: 1739341662
+
+Package: emac-dwc-eqos
+Version: git-r0_perf_perf
+Depends: kernel-module-emac-dwc-eqos-4.14.206-perf
+Provides: kernel-module-emac-dwc-eqos-4.14.206-perf
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 624752
+Installed-Time: 1739341658
+
+Package: iptables-module-ipt-clusterip
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5780
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: systemd
+Version: 1:239-r0
+Depends: audit (>= 2.8.4), base-files, base-passwd, dbus-1, initscripts-sushell, kmod, libacl1 (>= 2.2.52), libblkid1 (>= 2.32.1), libc6 (>= 2.28), libcap2 (>= 2.25), liblzma5 (>= 5.2.4), libmount1 (>= 2.32.1), libselinux1 (>= 2.8), shadow, systemd-conf, systemd-serialgetty, udev (= 1:239-r0), update-alternatives-opkg, update-rc.d, util-linux-agetty, util-linux-fsck, util-linux-mount, util-linux-umount, volatile-binds
+Recommends: e2fsprogs-e2fsck, kernel-module-autofs4, kernel-module-ipv6, kernel-module-unix, os-release, systemd-compat-units, udev-hwdb
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 3919967
+Installed-Time: 1739341677
+Auto-Installed: yes
+
+Package: iptables-module-ipt-reject
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9876
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: iptables-module-xt-conntrack
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 23160
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: ppp
+Version: 2.4.7-r0
+Depends: libc6 (>= 2.28), libcrypt1 (>= 4.1.1), libcrypto1.1 (>= 1.1.1b), libpcap1 (>= 1.8.1)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Conffiles:
+ /etc/ppp/options 300f139554327e63b13b44a2e3040ce0
+Installed-Size: 410810
+Installed-Time: 1739341665
+
+Package: libubox
+Version: git-r0
+Depends: libc6 (>= 2.28), libjson-c4 (>= 0.13.1)
+Provides: libblobmsg_json.so, libubox.so
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 152978
+Installed-Time: 1739341665
+
+Package: policycoreutils-setfiles
+Version: 2.8-r0
+Depends: audit (>= 2.8.4), libc6 (>= 2.28), libselinux1 (>= 2.8), libsepol1 (>= 2.8)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 13952
+Installed-Time: 1739341666
+Auto-Installed: yes
+
+Package: libacl1
+Version: 2.2.52-r0
+Depends: libattr1 (>= 2.4.47), libc6 (>= 2.28)
+Provides: libacl
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 22048
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: libloc-base-util1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), liblog0 (>= 1.0), libsqlite3-0 (>= 3.23.1), libstdc++6 (>= 8.2.0)
+Provides: loc-base-util
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 83728
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: perl-module-errno
+Version: 5.24.4-r0
+Depends: perl, perl-module-carp, perl-module-exporter, perl-module-strict
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 6434
+Installed-Time: 1739341670
+Auto-Installed: yes
+
+Package: system-core
+Version: git-r19
+Depends: base-files, base-passwd, libbase0 (>= 1.0), libc6 (>= 2.28), libcutils0 (>= 1.0), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0), shadow
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 172525
+Installed-Time: 1739341673
+Auto-Installed: yes
+
+Package: libbase0
+Version: 1.0-r1
+Depends: libc6 (>= 2.28), libcutils0 (>= 1.0), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: libbase
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 22337
+Installed-Time: 1739341670
+Auto-Installed: yes
+
+Package: iptables-module-ipt-ttl
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 11548
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: embms-kernel
+Version: git-r0
+Depends: kernel-module-embms-kernel-4.14.206-perf
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 1218
+Installed-Time: 1739341665
+
+Package: systemd-serialgetty
+Version: 1.0-r5
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 1059
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: iptables-module-ipt-ulog
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5776
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: wlan-conf
+Version: git-r3_perf_perf
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 292179
+Installed-Time: 1739341659
+
+Package: perl-module-posix
+Version: 5.24.4-r0
+Depends: libc6 (>= 2.28), perl, perl-module-exporter, perl-module-fcntl, perl-module-strict, perl-module-tie-hash, perl-module-warnings, perl-module-xsloader
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 86990
+Installed-Time: 1739341675
+Auto-Installed: yes
+
+Package: libizatprovider1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libloc-base-util1 (>= git), libloc-core1 (>= git), liblocation-api1 (>= git), liblocationservice1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: izat-provider
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 62564
+Installed-Time: 1739341683
+
+Package: kernel-module-nf-conntrack-rtsp-4.14.206-perf
+Version: 3.7-r6
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-nf-conntrack-rtsp
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 9548
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-dst
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5772
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: iptables-module-xt-ipvs
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9968
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: libsystemd0
+Version: 1:239-r0
+Depends: libc6 (>= 2.28), libcap2 (>= 2.25), liblzma5 (>= 5.2.4), libmount1 (>= 2.32.1)
+Provides: libsystemd
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 425020
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: iptables-module-xt-secmark
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5780
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: iptables-module-ipt-masquerade
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5784
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: kernel-module-embms-kernel-4.14.206-perf
+Version: git-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-embms-kernel
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 11220
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: pam-plugin-deny
+Version: 1.3.0-r5
+Depends: libc6 (>= 2.28), libpam (>= 1.3.0), libpam-suffix
+Provides: pam-plugin-deny-suffix
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5560
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-hl
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 11548
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: kernel-module-msm-geni-ir-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-msm-geni-ir
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 17200
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: libcrypt1
+Version: 4.1.1-r0
+Depends: libc6 (>= 2.28)
+Provides: libxcrypt
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 120416
+Installed-Time: 1739341662
+Auto-Installed: yes
+
+Package: qmi-framework-vendor
+Version: git-r8
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 55549
+Installed-Time: 1739341669
+
+Package: libnl-genl-3-200
+Version: 1:3.4.0-r0
+Depends: libc6 (>= 2.28), libnl-3-200 (>= 3.4.0)
+Provides: libnl-genl
+Replaces: libnl-genl2
+Conflicts: libnl-genl2
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 18372
+Installed-Time: 1739341665
+Auto-Installed: yes
+
+Package: e2fsprogs-e2fsck
+Version: 1.44.3-r0
+Depends: libblkid1 (>= 2.32.1), libc6 (>= 2.28), libcom-err2 (>= 1.44.3), libe2p2 (>= 1.44.3), libext2fs2 (>= 1.44.3), libuuid1 (>= 2.32.1)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 230516
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: rtsp-alg
+Version: 3.7-r6
+Depends: kernel-module-nf-conntrack-rtsp-4.14.206-perf, kernel-module-nf-nat-rtsp-4.14.206-perf
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Time: 1739341668
+
+Package: kmod
+Version: 25+git0+aca4eca103-r0
+Depends: libc6 (>= 2.28), libz1 (>= 1.2.11), update-alternatives-opkg
+Provides: module-init-tools, module-init-tools-depmod, module-init-tools-insmod-static
+Replaces: module-init-tools, module-init-tools-depmod, module-init-tools-insmod-static
+Conflicts: module-init-tools, module-init-tools-depmod, module-init-tools-insmod-static
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 92022
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: pam-plugin-unix
+Version: 1.3.0-r5
+Depends: libc6 (>= 2.28), libcrypt1 (>= 4.1.1), libpam (>= 1.3.0), libpam-suffix, libselinux1 (>= 2.8)
+Provides: pam-plugin-unix-suffix
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 78640
+Installed-Time: 1739341666
+Auto-Installed: yes
+
+Package: bt-dlkm
+Version: git-r0
+Depends: kernel-module-bluetooth-power-4.14.206-perf
+Provides: kernel-module-bluetooth-power-4.14.206-perf
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 22633
+Installed-Time: 1739341658
+
+Package: avahi-autoipd
+Version: 0.7-r12.0
+Depends: libc6 (>= 2.28), libdaemon0 (>= 0.14)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 32973
+Installed-Time: 1739341664
+
+Package: liblocationservice-glue1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), liblbs-core1 (>= git), libloc-api-wds1 (>= git), libloc-core1 (>= git), libloc-net-iface1 (>= git), liblocationservice1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: loc-glue
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 50800
+Installed-Time: 1739341683
+Auto-Installed: yes
+
+Package: wpa-supplicant-qcacld
+Version: git-r5.2
+Depends: libc6 (>= 2.28), libcrypto1.1 (>= 1.1.1b), libnl-3-200 (>= 3.4.0), libnl-genl-3-200 (>= 3.4.0), libnl-route-3-200 (>= 3.4.0), libssl1.1 (>= 1.1.1b), libwpa-supplicant-8-lib0 (>= git), qmi (>= git), qmi-framework (>= git)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 1862096
+Installed-Time: 1739341678
+
+Package: kernel-module-mtd-subpagetest-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-mtd-subpagetest
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 16696
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: liblowi-client1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libloc-base-util1 (>= git), libloc-mq-client1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: lowi-client
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 141000
+Installed-Time: 1739341674
+Auto-Installed: yes
+
+Package: iptables-module-xt-physdev
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5776
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: packagegroup-core-boot
+Version: 1.0-r17
+Depends: base-files, base-passwd, busybox, keymaps, netbase, systemd, udev, update-alternatives-opkg
+Recommends: busybox-syslog
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Time: 1739341679
+
+Package: bind-libs
+Version: 9.11.5-P4-r0
+Depends: libc6 (>= 2.28), libcap2 (>= 2.25), libcrypto1.1 (>= 1.1.1b), libz1 (>= 1.2.11)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 2092032
+Installed-Time: 1739341665
+Auto-Installed: yes
+
+Package: start-scripts-mssboot
+Version: 1.0-r2
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 845
+Installed-Time: 1739341659
+
+Package: avahi-systemd
+Version: 0.7-r12.0
+Depends: avahi-daemon
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 3086
+Installed-Time: 1739341679
+
+Package: iptables-module-xt-mangle
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9872
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: libselinux-bin
+Version: 2.8-r0
+Depends: libc6 (>= 2.28), libpcre1 (>= 8.42), libselinux1 (>= 2.8), libsepol1 (>= 2.8)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 213096
+Installed-Time: 1739341666
+Auto-Installed: yes
+
+Package: iptables-module-xt-sctp
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9868
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: iptables-module-xt-state
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 23156
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: securemsm-noship
+Version: 1.0-1
+Depends: libc6 (>= 2.28), libcrypto1.1 (>= 1.1.1b), libcutils0 (>= 1.0), libgcc1 (>= 8.2.0), libion0 (>= 1.0), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0), libutils0 (>= 1.0), libxml2 (>= 2.9.8)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 185983
+Installed-Time: 1739341670
+
+Package: iptables-module-xt-iprange
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 10072
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: iptables
+Version: 1.6.2-r0
+Depends: iptables-module-xt-standard, libc6 (>= 2.28)
+Recommends: iptables-modules, kernel-module-ip-tables, kernel-module-ipt-masquerade, kernel-module-iptable-filter, kernel-module-iptable-nat, kernel-module-nf-conntrack, kernel-module-nf-conntrack-ipv4, kernel-module-nf-defrag-ipv4, kernel-module-nf-nat, kernel-module-x-tables
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 149360
+Installed-Time: 1739341662
+
+Package: liblocation-client-api1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), liblocation-api-msg-proto1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0), protobuf (>= 3.3.0+git0+a6189acd18)
+Provides: location-client-api
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 222848
+Installed-Time: 1739341674
+
+Package: iptables-module-ipt-dnat
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9872
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: libpal-net-if1
+Version: git-r1
+Depends: libc6 (>= 2.28), libcrypto1.1 (>= 1.1.1b), libcutils0 (>= 1.0), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), liblog0 (>= 1.0), libssl1.1 (>= 1.1.1b), libstdc++6 (>= 8.2.0)
+Provides: pal-net-if
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 34527
+Installed-Time: 1739341671
+Auto-Installed: yes
+
+Package: libgnutls30
+Version: 3.6.4-r0
+Depends: libc6 (>= 2.28), libgmp10 (>= 6.1.2), libidn2-0 (>= 2.0.5), libunistring2 (>= 0.9.10), nettle (>= 3.4)
+Provides: gnutls
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 1178016
+Installed-Time: 1739341666
+Auto-Installed: yes
+
+Package: ipa-fws
+Version: git-r3
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 100080
+Installed-Time: 1739341658
+
+Package: iptables-module-xt-connlimit
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 6076
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: iptables-module-xt-nfacct
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5772
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-reject
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5780
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: libext2fs2
+Version: 1.44.3-r0
+Depends: libblkid1 (>= 2.32.1), libc6 (>= 2.28), libcom-err2 (>= 1.44.3)
+Provides: libext2fs
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 250216
+Installed-Time: 1739341666
+Auto-Installed: yes
+
+Package: iputils-ping
+Version: s20180629-r0
+Depends: libc6 (>= 2.28), libcap2 (>= 2.25), nettle (>= 3.4), update-alternatives-opkg
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 47312
+Installed-Time: 1739341666
+Auto-Installed: yes
+
+Package: iptables-module-xt-nfqueue
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 10188
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: iptables-module-xt-dccp
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9868
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: xtwifi-client
+Version: git-r1
+Depends: libasn1c-cper1 (>= git), libasn1c-crt1 (>= git), libasn1c-rtx1 (>= git), libc6 (>= 2.28), libcrypto1.1 (>= 1.1.1b), libcutils0 (>= 1.0), libgcc1 (>= 8.2.0), libgdtap-adapter1 (>= git), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libizat-core1 (>= git), libloc-base-util1 (>= git), libloc-core1 (>= git), libloc-mq-client1 (>= git), liblog0 (>= 1.0), liblowi-client1 (>= git), libsqlite3-0 (>= 3.23.1), libssl1.1 (>= 1.1.1b), libstdc++6 (>= 8.2.0), libz1 (>= 1.2.11), qmi (>= git), qmi-framework (>= git)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 1771999
+Installed-Time: 1739341682
+
+Package: libbatching1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libloc-core1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: location-batching
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 57453
+Installed-Time: 1739341675
+
+Package: libsemanage1
+Version: 2.8-r0
+Depends: audit (>= 2.8.4), libbz2-1 (>= 1.0.6), libc6 (>= 2.28), libselinux1 (>= 2.8), libsepol1 (>= 2.8)
+Provides: libsemanage
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 172554
+Installed-Time: 1739341666
+Auto-Installed: yes
+
+Package: iptables-module-xt-classify
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5884
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: perl
+Version: 5.24.4-r0
+Depends: libc6 (>= 2.28), libperl5 (>= 5.24.4)
+Provides: perl-module-config, perl-module-constant, perl-module-exporter, perl-module-exporter-heavy, perl-module-getopt-long, perl-module-overload, perl-module-strict, perl-module-vars, perl-module-warnings, perl-module-warnings-register
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 249196
+Installed-Time: 1739341666
+
+Package: udev
+Version: 1:239-r0
+Depends: libacl1 (>= 2.2.52), libblkid1 (>= 2.32.1), libc6 (>= 2.28), libcap2 (>= 2.25), libmount1 (>= 2.32.1), libselinux1 (>= 2.8)
+Provides: hotplug
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 1172534
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: iptables-module-xt-dscp
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 11752
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: libbt-vendor0
+Version: git-r0
+Depends: hci-qcomm-init (>= git), libc6 (>= 2.28), libcutils0, libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: libbt-vendor
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 69161
+Installed-Time: 1739341681
+
+Package: iptables-modules
+Version: 1.6.2-r0
+Depends: iptables-module-ebt-802-3, iptables-module-ebt-ip, iptables-module-ebt-log, iptables-module-ebt-mark-m, iptables-module-ip6t-ah, iptables-module-ip6t-dnat, iptables-module-ip6t-dnpt, iptables-module-ip6t-dst, iptables-module-ip6t-eui64, iptables-module-ip6t-frag, iptables-module-ip6t-hbh, iptables-module-ip6t-hl, iptables-module-ip6t-icmp6, iptables-module-ip6t-ipv6header, iptables-module-ip6t-log, iptables-module-ip6t-masquerade, iptables-module-ip6t-mh, iptables-module-ip6t-netmap, iptables-module-ip6t-redirect, iptables-module-ip6t-reject, iptables-module-ip6t-rt, iptables-module-ip6t-snat, iptables-module-ip6t-snpt, iptables-module-ip6t-srh, iptables-module-ipt-ah, iptables-module-ipt-clusterip, iptables-module-ipt-dnat, iptables-module-ipt-ecn, iptables-module-ipt-icmp, iptables-module-ipt-log, iptables-module-ipt-masquerade, iptables-module-ipt-nattype, iptables-module-ipt-netmap, iptables-module-ipt-realm, iptables-module-ipt-redirect, iptables-module-ipt-reject, iptables-module-ipt-snat, iptables-module-ipt-ttl, iptables-module-ipt-ulog, iptables-module-xt-addrtype, iptables-module-xt-audit, iptables-module-xt-bpf, iptables-module-xt-cgroup, iptables-module-xt-checksum, iptables-module-xt-classify, iptables-module-xt-cluster, iptables-module-xt-comment, iptables-module-xt-connbytes, iptables-module-xt-connlimit, iptables-module-xt-connmark, iptables-module-xt-connsecmark, iptables-module-xt-conntrack, iptables-module-xt-cpu, iptables-module-xt-ct, iptables-module-xt-dccp, iptables-module-xt-devgroup, iptables-module-xt-dscp, iptables-module-xt-ecn, iptables-module-xt-esp, iptables-module-xt-hashlimit, iptables-module-xt-helper, iptables-module-xt-hmark, iptables-module-xt-idletimer, iptables-module-xt-ipcomp, iptables-module-xt-iprange, iptables-module-xt-ipvs, iptables-module-xt-led, iptables-module-xt-length, iptables-module-xt-limit, iptables-module-xt-mac, iptables-module-xt-mangle, iptables-module-xt-mark, iptables-module-xt-multiport, iptables-module-xt-nfacct, iptables-module-xt-nflog, iptables-module-xt-nfqueue, iptables-module-xt-notrack, iptables-module-xt-osf, iptables-module-xt-owner, iptables-module-xt-physdev, iptables-module-xt-pkttype, iptables-module-xt-policy, iptables-module-xt-quota, iptables-module-xt-rateest, iptables-module-xt-recent, iptables-module-xt-rpfilter, iptables-module-xt-sctp, iptables-module-xt-secmark, iptables-module-xt-set, iptables-module-xt-socket, iptables-module-xt-standard, iptables-module-xt-state, iptables-module-xt-statistic, iptables-module-xt-string, iptables-module-xt-synproxy, iptables-module-xt-tcp, iptables-module-xt-tcpmss, iptables-module-xt-tcpoptstrip, iptables-module-xt-tee, iptables-module-xt-time, iptables-module-xt-tos, iptables-module-xt-tproxy, iptables-module-xt-trace, iptables-module-xt-u32, iptables-module-xt-udp
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: libloc-core1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: loc-core
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 427800
+Installed-Time: 1739341671
+Auto-Installed: yes
+
+Package: kernel-module-ip6-udp-tunnel-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-ip6-udp-tunnel
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 4576
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: powerapp-powerconfig
+Version: git-r9
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 33897
+Installed-Time: 1739341658
+
+Package: liblzma5
+Version: 5.2.4-r0
+Depends: libc6 (>= 2.28)
+Provides: liblzma
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 116260
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: wlan-services
+Version: git-r2
+Depends: data (>= git), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 20156
+Installed-Time: 1739341681
+
+Package: ca-certificates
+Version: 20190110-r0
+Depends: openssl
+Status: install ok installed
+Architecture: all
+Conffiles:
+ /etc/ca-certificates.conf 4d3760612f9b1c70f18a4d6c0fa60d77
+Installed-Size: 211391
+Installed-Time: 1739341665
+Auto-Installed: yes
+
+Package: avahi-daemon
+Version: 0.7-r12.0
+Depends: base-files, base-passwd, libavahi-common3 (>= 0.7), libavahi-core7 (>= 0.7), libc6 (>= 2.28), libcap2 (>= 2.25), libdaemon0 (>= 0.14), libdbus-1-3 (>= 1.12.10), libexpat1 (>= 2.2.6), shadow
+Recommends: libnss-mdns
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Conffiles:
+ /etc/avahi/avahi-daemon.conf 25b4eda4f53fa242b167f2532267a55f
+Installed-Size: 110812
+Installed-Time: 1739341678
+
+Package: libnl-route-3-200
+Version: 1:3.4.0-r0
+Depends: libc6 (>= 2.28), libnl-3-200 (>= 3.4.0)
+Provides: libnl-route
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 313116
+Installed-Time: 1739341665
+Auto-Installed: yes
+
+Package: liblocationservice1
+Version: git-r1
+Depends: libc6 (>= 2.28), libdataitems1 (>= git), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libizat-core1 (>= git), liblbs-core1 (>= git), libloc-base-util1 (>= git), libloc-core1 (>= git), libloc-mq-client1 (>= git), liblocation-api1 (>= git), liblog0 (>= 1.0), liblowi-client1 (>= git), libstdc++6 (>= 8.2.0)
+Provides: location-service
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 530796
+Installed-Time: 1739341682
+
+Package: iptables-module-ipt-nattype
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5768
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: iptables-module-xt-tcp
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9868
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: liblocation-integration-api1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), liblocation-api-msg-proto1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0), protobuf (>= 3.3.0+git0+a6189acd18)
+Provides: location-integration-api
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 108156
+Installed-Time: 1739341674
+
+Package: perl-module-carp
+Version: 5.24.4-r0
+Depends: perl, perl-module-exporter, perl-module-strict, perl-module-warnings
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 30679
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: iptables-module-xt-set
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 32740
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: kernel-module-snd-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf, kernel-module-soundcore-4.14.206-perf
+Provides: kernel-module-snd
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 69464
+Installed-Time: 1739341665
+Auto-Installed: yes
+
+Package: ncurses-terminfo-base
+Version: 6.1+20180630-r0
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 21726
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: packagegroup-base-extended
+Version: 1.0-r83
+Depends: packagegroup-base
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Time: 1739341670
+
+Package: libbtvendorhal0
+Version: git-r1
+Depends: libc6 (>= 2.28), libcutils0 (>= 1.0), liblog0 (>= 1.0)
+Provides: btvendorhal
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5680
+Installed-Time: 1739341670
+Auto-Installed: yes
+
+Package: loc-hal
+Version: git-r5
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libloc-core1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 310939
+Installed-Time: 1739341674
+
+Package: kernel-module-mtd-nandbiterrs-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-mtd-nandbiterrs
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 13848
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: libattr1
+Version: 2.4.47-r0
+Depends: libc6 (>= 2.28)
+Provides: libattr
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 13808
+Installed-Time: 1739341662
+Auto-Installed: yes
+
+Package: kernel-module-gpio-matrix-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-gpio-matrix
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 9616
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: avahi-utils
+Version: 0.7-r12.0
+Depends: libavahi-client3 (>= 0.7), libavahi-common3 (>= 0.7), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 56104
+Installed-Time: 1739341678
+
+Package: kernel-module-usb-f-uac1-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf, kernel-module-u-audio-4.14.206-perf
+Provides: kernel-module-usb-f-uac1
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 18756
+Installed-Time: 1739341671
+Auto-Installed: yes
+
+Package: iputils
+Version: s20180629-r0
+Depends: iputils-arping, iputils-clockdiff, iputils-ping, iputils-rarpd, iputils-rdisc, iputils-tftpd, iputils-tracepath, iputils-traceroute6
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Time: 1739341668
+
+Package: libpcap1
+Version: 1.8.1-r0
+Depends: libc6 (>= 2.28)
+Provides: libpcap
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 210860
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: pam-plugin-env
+Version: 1.3.0-r5
+Depends: libc6 (>= 2.28), libpam (>= 1.3.0), libpam-suffix
+Provides: pam-plugin-env-suffix
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9708
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: libjson-c4
+Version: 0.13.1-r0
+Depends: libc6 (>= 2.28)
+Provides: json-c, libjson
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 42732
+Installed-Time: 1739341662
+
+Package: iptables-module-ebt-802-3
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5772
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: libssl1.1
+Version: 1.1.1b-r0
+Depends: libc6 (>= 2.28), libcrypto1.1 (>= 1.1.1b)
+Provides: libssl
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 348728
+Installed-Time: 1739341665
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-mh
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9868
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: start-scripts-firmware-links
+Version: 1.0-r5
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Time: 1739341659
+
+Package: kernel-module-mtd-torturetest-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-mtd-torturetest
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 19672
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: libcap2
+Version: 2.25-r0
+Depends: libc6 (>= 2.28)
+Provides: libcap
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 19624
+Installed-Time: 1739341662
+Auto-Installed: yes
+
+Package: iptables-module-xt-multiport
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 10172
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: libloc-net-iface1
+Version: git-r5
+Depends: data (>= git), libc6 (>= 2.28), libdataitems1 (>= git), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libloc-api-wds1 (>= git), libloc-core1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0), qmi (>= git), qmi-framework (>= git)
+Provides: loc-net-iface
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 150335
+Installed-Time: 1739341681
+
+Package: time-services
+Version: git-r9
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0), liblog0 (>= 1.0), qmi-framework (>= git)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 19665
+Installed-Time: 1739341678
+
+Package: libcurl4
+Version: 7.61.0-r0
+Depends: libc6 (>= 2.28), libgnutls30 (>= 3.6.4), libidn2-0 (>= 2.0.5), libz1 (>= 1.2.11), nettle (>= 3.4)
+Recommends: ca-certificates
+Provides: libcurl
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 259880
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: iptables-module-xt-ecn
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5772
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: ath6kl-utils
+Version: git-r2
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0), libnl-3-200 (>= 3.4.0), libnl-genl-3-200 (>= 3.4.0), libz1 (>= 1.2.11)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 172464
+Installed-Time: 1739341670
+
+Package: libasn1c-rtx1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: asn1c-rtx
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 177880
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: pimd
+Version: git-r5
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 98342
+Installed-Time: 1739341662
+
+Package: iptables-module-xt-tee
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5880
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: chg-policy
+Version: git-r0
+Depends: libc6 (>= 2.28), libcutils0 (>= 1.0), libglib-2.0-0 (>= 2.58.0)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 151105
+Installed-Time: 1739341670
+
+Package: kbd
+Version: 2.0.4-r0
+Depends: libc6 (>= 2.28), update-alternatives-opkg
+Provides: console-tools
+Replaces: console-tools
+Conflicts: console-tools
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 431368
+Installed-Time: 1739341662
+Auto-Installed: yes
+
+Package: findutils
+Version: 4.6.0-r0
+Depends: libc6 (>= 2.28), libselinux1 (>= 2.8), update-alternatives-opkg
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 468757
+Installed-Time: 1739341666
+Auto-Installed: yes
+
+Package: liblocdiagiface1
+Version: git-r1
+Depends: libc6 (>= 2.28), libdiag1 (>= git), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: loc-diag-iface
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 38628
+Installed-Time: 1739341671
+
+Package: iptables-module-xt-owner
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 10068
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: pam-plugin-lastlog
+Version: 1.3.0-r5
+Depends: libc6 (>= 2.28), libpam (>= 1.3.0), libpam-suffix
+Provides: pam-plugin-lastlog-suffix
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9708
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: sec-config
+Version: 1.0-r0
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 7207
+Installed-Time: 1739341659
+
+Package: libavahi-client3
+Version: 0.7-r12.0
+Depends: libavahi-common3 (>= 0.7), libc6 (>= 2.28), libdbus-1-3 (>= 1.12.10)
+Provides: libavahi-client
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 46764
+Installed-Time: 1739341678
+
+Package: libz1
+Version: 1.2.11-r0
+Depends: libc6 (>= 2.28)
+Provides: zlib
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 75404
+Installed-Time: 1739341662
+Auto-Installed: yes
+
+Package: tftp-server
+Version: git-r1
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 68039
+Installed-Time: 1739341669
+
+Package: iptables-module-xt-ct
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 10492
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: edgnss-daemon
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), liblog0 (>= 1.0), libpal-net-if1 (>= git), libstdc++6 (>= 8.2.0), libsys-info-cache1 (>= git)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 38804
+Installed-Time: 1739341675
+
+Package: libgdtap-adapter1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libizat-core1 (>= git), libloc-base-util1 (>= git), libloc-core1 (>= git), libloc-mq-client1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0), loc-hal (>= git)
+Provides: gdtap-adapter
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 63184
+Installed-Time: 1739341681
+Auto-Installed: yes
+
+Package: kernel-module-mtd-oobtest-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-mtd-oobtest
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 20928
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: iptables-module-xt-tcpmss
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 11652
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: start-scripts-ipa-fws
+Version: 1.0-r2
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 1438
+Installed-Time: 1739341659
+
+Package: libwpa-supplicant-8-lib0
+Version: git-r2
+Depends: libc6 (>= 2.28), libnl-3-200 (>= 3.4.0), libnl-genl-3-200 (>= 3.4.0), libnl-nf-3-200 (>= 3.4.0), libnl-route-3-200 (>= 3.4.0)
+Provides: wpa-supplicant-8-lib
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 34308
+Installed-Time: 1739341669
+
+Package: libloc-api-wds1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0), qmi (>= git), qmi-framework (>= git)
+Provides: loc-api-wds
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 26316
+Installed-Time: 1739341678
+Auto-Installed: yes
+
+Package: libext4-utils0
+Version: git-r1
+Depends: libc6 (>= 2.28), libcutils0 (>= 1.0), libgcc1 (>= 8.2.0), libselinux1 (>= 2.8), libsparse0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: ext4-utils
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 63080
+Installed-Time: 1739341670
+Auto-Installed: yes
+
+Package: libglib-2.0-0
+Version: 1:2.58.0-r0
+Depends: libc6 (>= 2.28), libffi6 (>= 3.2.1), libmount1 (>= 2.32.1), libpcre1 (>= 8.42), libselinux1 (>= 2.8), libz1 (>= 1.2.11)
+Provides: glib-2.0
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 2223996
+Installed-Time: 1739341669
+
+Package: util-linux-fsck
+Version: 2.32.1-r0
+Depends: libblkid1 (>= 2.32.1), libc6 (>= 2.28), libmount1 (>= 2.32.1), update-alternatives-opkg
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 34516
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: kernel-4.14.206-perf
+Version: 4.14-r0
+Provides: kernel-4.14.206-perf, kernel-base
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 24869
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: perl-module-dynaloader
+Version: 5.24.4-r0
+Depends: perl, perl-module-carp, perl-module-config
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 25318
+Installed-Time: 1739341670
+Auto-Installed: yes
+
+Package: iptables-module-xt-udp
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5772
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: iptables-module-ipt-icmp
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9868
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: liblocation-qapi1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), liblocation-client-api1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: location-qapi
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 74821
+Installed-Time: 1739341675
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-snat
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9872
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: kernel-module-spidev-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-spidev
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 14772
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: perl-module-integer
+Version: 5.24.4-r0
+Depends: perl
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 3254
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: netbase
+Version: 1:5.4-r1
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Conffiles:
+ /etc/hosts 4af6093d05fd4d338a78484bd352927d
+Installed-Size: 23263
+Installed-Time: 1739341660
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-frag
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5772
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: kernel-module-gpio-axis-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-gpio-axis
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 5336
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: kernel-module-snd-timer-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf, kernel-module-snd-4.14.206-perf
+Provides: kernel-module-snd-timer
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 32428
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: initscripts-sushell
+Version: 1.0-r157
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 63
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: iptables-module-xt-idletimer
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5780
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: iptables-module-xt-recent
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 10068
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: iptables-module-xt-hashlimit
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 22932
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: kernel-module-mtd-nandecctest-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-mtd-nandecctest
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 8004
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: perl-module-io-seekable
+Version: 5.24.4-r0
+Depends: perl, perl-module-carp, perl-module-exporter, perl-module-fcntl, perl-module-io-handle, perl-module-strict
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 2935
+Installed-Time: 1739341678
+Auto-Installed: yes
+
+Package: libgcc1
+Version: 8.2.0-r0
+Depends: libc6 (>= 2.28)
+Provides: libgcc
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 104016
+Installed-Time: 1739341662
+Auto-Installed: yes
+
+Package: libizat-core1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libloc-api-v02-1 (>= git), libloc-base-util1 (>= git), libloc-core1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: izat-core
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 1175256
+Installed-Time: 1739341679
+
+Package: pam-plugin-limits
+Version: 1.3.0-r5
+Depends: libc6 (>= 2.28), libpam (>= 1.3.0), libpam-suffix
+Provides: pam-plugin-limits-suffix
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 13864
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: keymaps
+Version: 1.0-r31
+Depends: kbd
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Time: 1739341665
+Auto-Installed: yes
+
+Package: perl-module-list-util
+Version: 5.24.4-r0
+Depends: libc6 (>= 2.28), perl, perl-module-exporter, perl-module-strict, perl-module-xsloader
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 46572
+Installed-Time: 1739341674
+Auto-Installed: yes
+
+Package: liblzo2-2
+Version: 2.10-r0
+Depends: libc6 (>= 2.28)
+Provides: lzo
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 108128
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: libgeofencing1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libloc-core1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: location-geofence
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 156009
+Installed-Time: 1739341675
+
+Package: liblbs-core1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libizat-core1 (>= git), libloc-api-v02-1 (>= git), libloc-base-util1 (>= git), libloc-core1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: lbs-core
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 125626
+Installed-Time: 1739341681
+
+Package: kernel-module-mmc-test-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-mmc-test
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 42844
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: xtra-daemon
+Version: git-r1
+Depends: libc6 (>= 2.28), libcrypto1.1 (>= 1.1.1b), libcutils0 (>= 1.0), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libizat-core1 (>= git), libloc-core1 (>= git), liblocationservice-glue1, liblog0 (>= 1.0), libpal-net-if1 (>= git), libsqlite3-0 (>= 3.23.1), libstdc++6 (>= 8.2.0), libsys-info-cache1 (>= git)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 296772
+Installed-Time: 1739341683
+
+Package: packagegroup-base
+Version: 1.0-r83
+Depends: module-init-tools, packagegroup-base-ipv6, packagegroup-base-keyboard, packagegroup-distro-base, packagegroup-machine-base
+Recommends: kernel-module-input, kernel-module-nls-utf8, kernel-module-rtc-dev, kernel-module-rtc-proc, kernel-module-rtc-sysfs, kernel-module-uinput, kernel-module-unix
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: qmi-framework
+Version: git-r8
+Depends: libc6 (>= 2.28), liblog0 (>= 1.0), qmi (>= git)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 330068
+Installed-Time: 1739341678
+
+Package: kernel-module-qcrypto-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf, kernel-module-qce50-4.14.206-perf
+Provides: kernel-module-qcrypto
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 72256
+Installed-Time: 1739341665
+Auto-Installed: yes
+
+Package: libexpat1
+Version: 2.2.6-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0)
+Provides: expat
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 161424
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: libnl-nf-3-200
+Version: 1:3.4.0-r0
+Depends: libc6 (>= 2.28), libnl-3-200 (>= 3.4.0), libnl-route-3-200 (>= 3.4.0)
+Provides: libnl-nf
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 64996
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: pam-plugin-faildelay
+Version: 1.3.0-r5
+Depends: libc6 (>= 2.28), libpam (>= 1.3.0), libpam-suffix
+Provides: pam-plugin-faildelay-suffix
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5616
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: kernel-module-qce50-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-qce50
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 69292
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: libasn1c-cper1
+Version: git-r1
+Depends: libasn1c-crt1 (>= git), libasn1c-rtx1 (>= git), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: asn1c-cper
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 75408
+Installed-Time: 1739341674
+Auto-Installed: yes
+
+Package: iptables-module-ebt-ip
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9868
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: libutils0
+Version: 1.0-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: libutils
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 71550
+Installed-Time: 1739341666
+Auto-Installed: yes
+
+Package: iptables-module-xt-mark
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 15952
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: systemd-compat-units
+Version: 1.0-r29
+Depends: systemd
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Time: 1739341678
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-dnpt
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5776
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: iptables-module-xt-time
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9868
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: data-rc
+Version: git-r0
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 8156
+Installed-Time: 1739341658
+
+Package: perl-module-io-socket-inet
+Version: 5.24.4-r0
+Depends: perl, perl-module-carp, perl-module-errno, perl-module-exporter, perl-module-io-socket, perl-module-socket, perl-module-strict
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 12476
+Installed-Time: 1739341682
+Auto-Installed: yes
+
+Package: libperl5
+Version: 5.24.4-r0
+Depends: libc6 (>= 2.28), libcrypt1 (>= 4.1.1)
+Provides: perl-lib
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 1371181
+Installed-Time: 1739341664
+Auto-Installed: yes
+
+Package: iptables-module-ipt-redirect
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5780
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: iptables-module-xt-checksum
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5780
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: iptables-module-ipt-log
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9872
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: realtek-firmware
+Version: 20210514-r0
+Status: install ok installed
+Architecture: all
+Installed-Size: 72960
+Installed-Time: 1739341659
+
+Package: policycoreutils-semodule
+Version: 2.8-r0
+Depends: libc6 (>= 2.28), libselinux1, libsemanage1 (>= 2.8), libsepol1
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 18428
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: iptables-module-xt-osf
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5772
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: iptables-module-xt-tcpoptstrip
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5784
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: bind-utils
+Version: 9.11.5-P4-r0
+Depends: bash, bind-libs (>= 9.11.5-P4), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 194028
+Installed-Time: 1739341668
+
+Package: nmea-test-app
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libloc-api-v02-1 (>= git)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 14008
+Installed-Time: 1739341679
+
+Package: perl-module-autoloader
+Version: 5.24.4-r0
+Depends: perl, perl-module-carp, perl-module-strict
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 15797
+Installed-Time: 1739341670
+Auto-Installed: yes
+
+Package: iptables-module-xt-tproxy
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5984
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: mbim
+Version: git-r3
+Depends: libc6 (>= 2.28), libcutils0 (>= 1.0), libdiag1 (>= git), libjson-c4 (>= 0.13.1), libsystemdq0 (>= 1.0), qmi-framework (>= git)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 1374500
+Installed-Time: 1739341679
+
+Package: iptables-module-ip6t-rt
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9868
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: iputils-rdisc
+Version: s20180629-r0
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 18116
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: libnfnetlink0
+Version: 1.0.0-r0
+Depends: libc6 (>= 2.28)
+Provides: libnfnetlink
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 17548
+Installed-Time: 1739341662
+Auto-Installed: yes
+
+Package: libizat-client-api1
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libloc-base-util1 (>= git), libloc-mq-client1 (>= git), liblocation-client-api1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: izat-client-api
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 122186
+Installed-Time: 1739341675
+
+Package: perl-module-selectsaver
+Version: 5.24.4-r0
+Depends: perl, perl-module-carp, perl-module-symbol
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 1076
+Installed-Time: 1739341670
+Auto-Installed: yes
+
+Package: libtime-genoff1
+Version: git-r0
+Depends: libc6 (>= 2.28)
+Provides: time-genoff
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 5672
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: kernel-module-aqc-ipa-offload-4.14.206-perf
+Version: 1.0-r0_perf_perf
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-aqc-ipa-offload
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 100980
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: iptables-module-ebt-log
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5776
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: libloc-api-v02-1
+Version: git-r1
+Depends: libc6 (>= 2.28), libcutils0 (>= 1.0), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libloc-core1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0), libutils0 (>= 1.0), qmi-framework (>= git)
+Provides: loc-api-v02
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 317460
+Installed-Time: 1739341678
+Auto-Installed: yes
+
+Package: aqc-ipa-offload
+Version: 1.0-r0_perf_perf
+Depends: kernel-module-aqc-ipa-offload-4.14.206-perf
+Provides: kernel-module-aqc_ipa_offload
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 4729
+Installed-Time: 1739341665
+
+Package: iptables-module-ip6t-log
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9872
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: iptables-module-xt-connmark
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 15856
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: wireguard
+Version: 1.0-r0
+Depends: bash, libc6 (>= 2.28)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 70612
+Installed-Time: 1739341668
+
+Package: reboot-daemon
+Version: 1.0-r4
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5931
+Installed-Time: 1739341662
+
+Package: wireless-tools
+Version: git-r0
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 212812
+Installed-Time: 1739341662
+
+Package: libpugixml1
+Version: 1.8-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: pugixml
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 140948
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: libe2p2
+Version: 1.44.3-r0
+Depends: libc6 (>= 2.28)
+Provides: libe2p
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 27088
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: iputils-tftpd
+Version: s20180629-r0
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9996
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: libdaemon0
+Version: 0.14-r0
+Depends: libc6 (>= 2.28)
+Provides: libdaemon
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 17932
+Installed-Time: 1739341662
+Auto-Installed: yes
+
+Package: perl-module-io-socket
+Version: 5.24.4-r0
+Depends: perl, perl-module-carp, perl-module-errno, perl-module-exporter, perl-module-io-handle, perl-module-io-select, perl-module-io-socket-inet, perl-module-io-socket-unix, perl-module-socket, perl-module-strict
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 16049
+Installed-Time: 1739341682
+Auto-Installed: yes
+
+Package: iptables-module-xt-connsecmark
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5784
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: packagegroup-machine-base
+Version: 1.0-r83
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Time: 1739341661
+Auto-Installed: yes
+
+Package: iptables-module-xt-bpf
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 9968
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: qcacld-utils
+Version: git-r1
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 36456
+Installed-Time: 1739341662
+
+Package: kernel-module-soundcore-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-soundcore
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 4380
+Installed-Time: 1739341663
+Auto-Installed: yes
+
+Package: lowi-test
+Version: git-r1
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libloc-base-util1 (>= git), liblowi-client1 (>= git), libstdc++6 (>= 8.2.0), libxml2 (>= 2.9.8)
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 120952
+Installed-Time: 1739341675
+Auto-Installed: yes
+
+Package: util-linux-sulogin
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), libcrypt1 (>= 4.1.1), libselinux1 (>= 2.8), update-alternatives-opkg
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 34504
+Installed-Time: 1739341666
+Auto-Installed: yes
+
+Package: libnss-mdns
+Version: 0.10-r7
+Depends: avahi-daemon, libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 58296
+Installed-Time: 1739341678
+Auto-Installed: yes
+
+Package: libavahi-core7
+Version: 0.7-r12.0
+Depends: libavahi-common3 (>= 0.7), libc6 (>= 2.28)
+Provides: libavahi-core
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 149140
+Installed-Time: 1739341665
+
+Package: pam-plugin-shells
+Version: 1.3.0-r5
+Depends: libc6 (>= 2.28), libpam (>= 1.3.0), libpam-suffix
+Provides: pam-plugin-shells-suffix
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5612
+Installed-Time: 1739341669
+Auto-Installed: yes
+
+Package: kernel-module-snd-compress-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf, kernel-module-snd-4.14.206-perf
+Provides: kernel-module-snd-compress
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 16660
+Installed-Time: 1739341668
+Auto-Installed: yes
+
+Package: iptables-module-ipt-ah
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: armv7at2hf-neon
+Installed-Size: 5772
+Installed-Time: 1739341667
+Auto-Installed: yes
+
+Package: kernel-module-mtd-speedtest-4.14.206-perf
+Version: 4.14-r0
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-mtd-speedtest
+Status: install ok installed
+Architecture: sdxprairie
+Installed-Size: 15188
+Installed-Time: 1739341663
+Auto-Installed: yes
+

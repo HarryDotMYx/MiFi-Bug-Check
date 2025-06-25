@@ -1,0 +1,13 @@
+Package: libpng12
+Version: 1.2.59-r0
+Description: PNG image format decoding library
+ PNG image format decoding library.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: armv7at2hf-neon
+OE: libpng12
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), libz1 (>= 1.2.11)
+Source: libpng12_1.2.59.bb

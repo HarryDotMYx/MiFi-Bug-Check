@@ -1,0 +1,11 @@
+[Unit]
+SourcePath=/usr/bin/qmi_ip_multiclient
+Description= qmi_ip_multiclient service
+After=mount-data.service QCMAP_ConnectionManagerd.service eMBMs_TunnelingModuled.service
+
+[Service]
+Restart=no
+ExecStart=/usr/bin/qmi_ip_multiclient /etc/data/qmi_ip_cfg.xml
+
+[Install]
+WantedBy=multi-user.target

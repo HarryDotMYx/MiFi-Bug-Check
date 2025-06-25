@@ -1,0 +1,11 @@
+/lib/systemd/system/multi-user.target.wants/reset_reboot_cookie.service
+/lib/systemd/system/multi-user.target.wants/power_config.service
+/sbin/sys_shutdown
+/data/reboot-cookie
+/sbin/reboot-recovery
+/sbin/reboot-bootloader
+/lib/systemd/system/power_config.service
+/lib/systemd/system/reset_reboot_cookie.service
+/etc/initscripts/reset_reboot_cookie
+/sbin/sys_reboot
+/sbin/powerapp

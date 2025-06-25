@@ -1,0 +1,13 @@
+Package: edgnss-daemon
+Version: git-r1
+Description: edgnss-daemon version git-r1
+ edgnss daemon application
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: edgnss-daemon
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), liblog0 (>= 1.0), libpal-net-if1 (>= git), libstdc++6 (>= 8.2.0), libsys-info-cache1 (>= git)
+Source: edgnss-daemon_git.bb

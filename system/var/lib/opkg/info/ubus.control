@@ -1,0 +1,13 @@
+Package: ubus
+Version: git-r0
+Description: ubus version git-r0
+ ubus application
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: ubus
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), libubox (>= git)
+Source: ubus_git.bb

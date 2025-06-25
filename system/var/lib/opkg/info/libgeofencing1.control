@@ -1,0 +1,13 @@
+Package: libgeofencing1
+Version: git-r1
+Description: location-geofence version git-r1
+ GPS Geofence
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: sdxprairie
+OE: location-geofence
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libloc-core1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: location-geofence
+Source: location-geofence_git.bb

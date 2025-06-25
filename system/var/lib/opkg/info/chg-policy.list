@@ -1,0 +1,6 @@
+/data/persist/chg_policy/
+/lib/systemd/system/chg-policy.service
+/data/persist/chg_policy/config.txt
+/lib/systemd/system/multi-user.target.wants/chg-policy.service
+/usr/bin/chg-policy
+/etc/tmpfiles.d/chg-policy-tmpfiles.conf

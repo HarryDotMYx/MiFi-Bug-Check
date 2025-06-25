@@ -1,0 +1,18 @@
+Package: libsepol1
+Version: 2.8-r0
+Description: SELinux binary policy manipulation library
+ libsepol provides an API for the manipulation of SELinux binary policies.
+ It is used by checkpolicy (the policy compiler) and similar tools, as
+ well as by programs like load_policy that need to perform specific
+ transformations on binary policies such as customizing policy boolean
+ settings.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2+
+Architecture: armv7at2hf-neon
+OE: libsepol
+Homepage: https://github.com/SELinuxProject
+Depends: libc6 (>= 2.28)
+Provides: libsepol
+Source: libsepol_2.8.bb

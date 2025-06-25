@@ -1,0 +1,6 @@
+/lib/systemd/system/qmi_shutdown_modemd.service
+/lib/systemd/system/ffbm.target.wants/qmi_shutdown_modemd.service
+/usr/bin/qmi_shutdown_modem
+/lib/systemd/system/multi-user.target.wants/qmi_shutdown_modemd.service
+/etc/tmpfiles.d/qmi_shutdown_modem.conf
+/etc/udev/rules.d/qmi_shutdown_modem.rules

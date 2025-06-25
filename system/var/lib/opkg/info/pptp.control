@@ -1,0 +1,13 @@
+Package: pptp
+Version: 1.0-r0
+Description: pptp version 1.0-r0
+ pptp application
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: pptp
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), perl
+Source: pptp.bb

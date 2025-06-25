@@ -1,0 +1,20 @@
+[Unit]
+Description=ntp
+After=network.target network_mgr.service
+Requires=network.target
+
+[Service]
+Type=forking
+ExecStart=/usr/sbin/ntpd -p ntp1.aliyun.com -p time1.cloud.tencent.com -p ntp1.huaweicloud.com -p pool.ntp.org -p time1.google.com -p time.windows.com
+
+ExecStop=kill -9 $MAINPID
+
+Restart=always
+
+RestartSec=5
+
+StartLimitInterval=0
+
+[Install]
+WantedBy=multi-user.target
+

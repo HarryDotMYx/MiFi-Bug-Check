@@ -1,0 +1,8 @@
+/usr/bin/test_diag
+/usr/bin/diag_socket_log
+/usr/bin/diag_callback_sample
+/usr/bin/diag_dci_sample
+/usr/bin/diag_uart_log
+/usr/bin/PktRspTest
+/usr/bin/diag_mdlog
+/usr/bin/diag_klog

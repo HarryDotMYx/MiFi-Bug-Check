@@ -1,0 +1,21 @@
+#!/bin/sh
+# Copyright (c) 2020 Qualcomm Technologies, Inc.
+# All Rights Reserved.
+# Confidential and Proprietary - Qualcomm Technologies, Inc.
+#
+# Copyright (c) 2019, The Linux Foundation. All rights reserved
+
+
+# HOSTAPD init.d script to start the Hostapd daemon
+
+set -e
+
+echo "qcmap: hostapd: printing debug logs for hostapd on interface" $1
+
+if [ ${debug_mode} == "1" ];then
+    /usr/sbin/hostapd -B ${hostapd_conf} -P ${pid} -e ${entropy} -t -dd -f ${debug}
+else
+    /usr/sbin/hostapd -B ${hostapd_conf} -P ${pid} -e ${entropy}
+fi
+
+exit 0

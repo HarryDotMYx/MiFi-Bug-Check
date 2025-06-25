@@ -1,0 +1,22 @@
+[Unit]
+Description=Atfwd_daemon Service
+After=network.target ubus.service network_mgr.service
+Requires=network.target ubus.service network_mgr.service
+
+[Service]
+#User=radio
+#Group=radio
+Type=simple
+ExecStart=/usr/bin/atfwd_daemon
+ExecStop=kill -9 $MAINPID
+Restart=always
+RestartSec=5
+StartLimitInterval=0
+#diag is needed for QXDM logs
+#net_admin for network related commands
+#SupplementaryGroups=diag net_admin inet
+#CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_RAW CAP_NET_BIND_SERVICE
+#AmbientCapabilities=CAP_NET_ADMIN CAP_NET_RAW CAP_NET_BIND_SERVICE
+
+[Install]
+WantedBy=multi-user.target

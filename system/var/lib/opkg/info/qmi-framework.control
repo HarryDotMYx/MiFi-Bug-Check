@@ -1,0 +1,13 @@
+Package: qmi-framework
+Version: git-r8
+Description: qmi-framework version git-r8
+ QMI Framework Library
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: qmi-framework
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), liblog0 (>= 1.0), qmi (>= git)
+Source: qmi-framework_git.bb

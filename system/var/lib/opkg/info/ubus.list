@@ -1,0 +1,9 @@
+/usr/bin/ubus
+/usr/bin/ubusd
+/usr/include/ubusmsg.h
+/etc/systemd/system/multi-user.target.wants/ubus.service
+/usr/sbin/ubusd
+/etc/systemd/system/ubus.service
+/usr/include/libubus.h
+/usr/include/ubus_common.h
+/usr/lib/libubus.so

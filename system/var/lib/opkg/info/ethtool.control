@@ -1,0 +1,14 @@
+Package: ethtool
+Version: 4.19-r0
+Description: Display or change ethernet card settings
+ A small utility for examining and tuning the settings of your ethernet-
+ based network interfaces.
+Section: console/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: armv7at2hf-neon
+OE: ethtool
+Homepage: http://www.kernel.org/pub/software/network/ethtool/
+Depends: libc6 (>= 2.28)
+Source: ethtool_4.19.bb

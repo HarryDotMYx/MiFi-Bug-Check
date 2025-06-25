@@ -1,0 +1,8 @@
+KERNEL=="ipa" RUN+="/etc/udev/scripts/ipacm_udev.sh ipa"
+KERNEL=="wwan_ioctl" RUN+="/etc/udev/scripts/ipacm_udev.sh wwan_ioctl"
+KERNEL=="odu_ipa_bridge" RUN+="/etc/udev/scripts/ipacm_udev.sh odu_ipa_bridge"
+KERNEL=="ipaNatTable" RUN+="/etc/udev/scripts/ipacm_udev.sh ipaNatTable"
+KERNEL=="ipaIpv6CTTable" RUN+="/etc/udev/scripts/ipacm_udev.sh ipaIpv6CTTable"
+KERNEL=="diag" RUN+="/etc/udev/scripts/ipacm_udev.sh diag" TAG+="systemd"
+KERNEL=="ipa_adpl" RUN+="/etc/udev/scripts/ipacm_udev.sh ipa_adpl"
+KERNEL=="ipa_odl_ctl" RUN+="/etc/udev/scripts/ipacm_udev.sh ipa_odl_ctl"

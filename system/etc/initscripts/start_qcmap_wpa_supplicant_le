@@ -1,0 +1,27 @@
+#!/bin/sh
+# Copyright (c) 2020 Qualcomm Technologies, Inc.
+# All Rights Reserved.
+# Confidential and Proprietary - Qualcomm Technologies, Inc.
+#
+# Copyright (c) 2019, The Linux Foundation. All rights reserved
+
+# WPA SUPPLICANT init.d script to start the WPA Supplicant daemon
+
+set -e
+
+echo "qcmap : starting wpa_supplicant"
+if [ ${option} == "router" ];then
+    if [ ${debug_mode} == "1" ];then
+        /usr/sbin/wpa_supplicant -i ${sta_interface} -Dnl80211 -B -c ${supplicant_conf} -t -dd -f ${debug}
+    else
+        /usr/sbin/wpa_supplicant -i ${sta_interface} -Dnl80211 -B -c ${supplicant_conf}
+    fi
+elif [ ${option} == "bridge" ];then
+    if [ ${debug_mode} == "1" ];then
+        /usr/sbin/wpa_supplicant -b ${bridge_iface} -i ${sta_interface} -Dnl80211 -B -c ${supplicant_conf} -t -dd -f ${debug}
+    else
+        /usr/sbin/wpa_supplicant -b ${bridge_iface} -i ${sta_interface} -Dnl80211 -B -c ${supplicant_conf}
+    fi
+fi
+
+exit 0

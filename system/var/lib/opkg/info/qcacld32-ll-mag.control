@@ -1,0 +1,13 @@
+Package: qcacld32-ll-mag
+Version: 1.0-r8_perf_perf
+Description: qcacld32-ll-mag version 1.0-r8_perf_perf
+ Qualcomm Atheros WLAN CLD3.0 low latency driver
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: ISC
+Architecture: sdxprairie
+OE: qcacld32-ll-mag
+Depends: kernel-module-wlan-mag-4.14.206-perf
+Provides: kernel-module-wlan-mag-4.14.206-perf
+Source: qcacld32-ll-mag.bb

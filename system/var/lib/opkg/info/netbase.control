@@ -1,0 +1,13 @@
+Package: netbase
+Version: 1:5.4-r1
+Description: Basic TCP/IP networking support
+ This package provides the necessary infrastructure for basic TCP/IP based
+ networking
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7at2hf-neon
+OE: netbase
+Homepage: http://packages.debian.org/netbase
+Source: netbase_5.4.bb

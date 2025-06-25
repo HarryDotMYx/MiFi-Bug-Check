@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/chcon chcon /usr/bin/chcon.coreutils 100
+	update-alternatives --install /bin/cp cp /bin/cp.coreutils 100

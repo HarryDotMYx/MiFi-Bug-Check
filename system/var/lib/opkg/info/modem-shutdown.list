@@ -1,0 +1,7 @@
+/etc/initscripts/modem-shutdown
+/lib/systemd/system/poweroff.target.wants/modem_shutdown.service
+/bin/modem-shutdown
+/lib/systemd/system/poweroff.target.wants/
+/lib/systemd/system/reboot.target.wants/modem_shutdown.service
+/lib/systemd/system/modem_shutdown.service
+/lib/systemd/system/reboot.target.wants/

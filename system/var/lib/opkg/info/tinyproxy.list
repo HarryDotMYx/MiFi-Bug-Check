@@ -1,0 +1,8 @@
+/usr/share/tinyproxy/
+/usr/sbin/tinyproxy
+/lib/systemd/system/tinyproxyd.service
+/etc/tinyproxy.conf
+/usr/share/tinyproxy/debug.html
+/etc/data/tinyproxy.conf
+/usr/share/tinyproxy/default.html
+/usr/share/tinyproxy/stats.html

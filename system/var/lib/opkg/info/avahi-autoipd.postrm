@@ -1,0 +1,3 @@
+set -e
+	deluser avahi-autoipd || true
+	delgroup avahi-autoipd || true

@@ -1,0 +1,14 @@
+Package: ppp
+Version: 2.4.7-r0
+Description: Point-to-Point Protocol (PPP) support
+ ppp (Paul's PPP Package) is an open source package which implements the
+ Point-to-Point Protocol (PPP) on Linux and Solaris systems.
+Section: console/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD & GPLv2+ & LGPLv2+ & PD
+Architecture: armv7at2hf-neon
+OE: ppp
+Homepage: http://samba.org/ppp/
+Depends: libc6 (>= 2.28), libcrypt1 (>= 4.1.1), libcrypto1.1 (>= 1.1.1b), libpcap1 (>= 1.8.1)
+Source: ppp_2.4.7.bb

@@ -1,0 +1,11 @@
+Package: qce
+Version: dlkm-r0
+Description: qce version dlkm-r0
+ Start up script for crypto modules installation
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: armv7at2hf-neon
+OE: qce
+Source: qce_dlkm.bb

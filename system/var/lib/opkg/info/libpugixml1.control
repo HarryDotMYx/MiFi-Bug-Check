@@ -1,0 +1,14 @@
+Package: libpugixml1
+Version: 1.8-r0
+Description: XML Parser library 
+ XML Parser library .
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: armv7at2hf-neon
+OE: pugixml
+Homepage: https://github.com/zeux/pugixml
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: pugixml
+Source: pugixml_1.8.bb

@@ -1,0 +1,12 @@
+Package: realtek-firmware
+Version: 20210514-r0
+Description: realtek-firmware version 20210514-r0
+ Firmware files for Realtek Ethernet Controllers
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: all
+OE: realtek-firmware
+Homepage: http://support.cdmatech.com
+Source: realtek-firmware_20210514.bb

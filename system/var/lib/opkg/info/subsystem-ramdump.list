@@ -1,0 +1,2 @@
+/lib/systemd/system/subsystem-ramdump.service
+/usr/bin/subsystem_ramdump

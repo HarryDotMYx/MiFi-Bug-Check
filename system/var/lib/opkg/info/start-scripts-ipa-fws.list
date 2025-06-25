@@ -1,0 +1,5 @@
+/etc/systemd/system/local-fs.target.wants/
+/etc/systemd/system/local-fs.target.wants/start_stop_ipa_fws.service
+/etc/data/ipa_config.txt
+/etc/initscripts/ipa_fws_le
+/etc/systemd/system/start_stop_ipa_fws.service

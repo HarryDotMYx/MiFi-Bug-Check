@@ -1,0 +1,1 @@
+<% nvram_get_x("", "vpn_status"); %>

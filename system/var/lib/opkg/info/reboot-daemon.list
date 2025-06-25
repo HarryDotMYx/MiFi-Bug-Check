@@ -1,0 +1,4 @@
+/lib/systemd/system/multi-user.target.wants/reboot-daemon.service
+/lib/systemd/system/ffbm.target.wants/reboot-daemon.service
+/sbin/reboot-daemon
+/lib/systemd/system/reboot-daemon.service

@@ -1,0 +1,3 @@
+/etc/data/ddclient.conf
+/lib/systemd/system/ddclientd.service
+/usr/sbin/ddclient

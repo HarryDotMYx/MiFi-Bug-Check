@@ -1,0 +1,13 @@
+Package: kernel-module-r8125-4.14.206-perf
+Version: 1.0-r0_perf_perf
+Description: r8125 kernel module
+ r8125 kernel module; Realtek RTL8125 2.5Gigabit Ethernet driver
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: r8125
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-r8125
+Source: r8125.bb

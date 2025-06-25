@@ -1,0 +1,13 @@
+Package: kernel-module-mtd-nandbiterrs-4.14.206-perf
+Version: 4.14-r0
+Description: mtd-nandbiterrs kernel module
+ mtd-nandbiterrs kernel module; NAND bit error recovery test
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: linux-msm
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-mtd-nandbiterrs
+Source: linux-msm_4.14.bb

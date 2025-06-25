@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  chcon /usr/bin/chcon.coreutils
+	update-alternatives --remove  cp /bin/cp.coreutils

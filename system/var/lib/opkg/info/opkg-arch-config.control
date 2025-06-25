@@ -1,0 +1,15 @@
+Package: opkg-arch-config
+Version: 1.0-r1
+Description: Architecture-dependent configuration for opkg
+ Architecture-dependent configuration for opkg.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: sdxprairie
+OE: opkg-arch-config
+Homepage: http://code.google.com/p/opkg/
+Provides: opkg-config-base
+Replaces: opkg-config-base
+Conflicts: opkg-config-base
+Source: opkg-arch-config_1.0.bb

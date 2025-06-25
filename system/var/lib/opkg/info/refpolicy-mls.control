@@ -1,0 +1,14 @@
+Package: refpolicy-mls
+Version: 2.20170204-r0
+Description: MLS (Multi Level Security) variant of the SELinux policy
+ This is the reference policy for SE Linux built with MLS support. It
+ allows giving data labels such as \"Top Secret\" and preventing such data
+ from leaking to processes or files with lower classification.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: refpolicy-mls
+Provides: refpolicy, sepolicy
+Source: refpolicy-mls_2.20170204.bb

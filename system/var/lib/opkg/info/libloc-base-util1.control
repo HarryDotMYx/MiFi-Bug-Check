@@ -1,0 +1,14 @@
+Package: libloc-base-util1
+Version: git-r1
+Description: loc-base-util version git-r1
+ LOC base utils
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: loc-base-util
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), liblog0 (>= 1.0), libsqlite3-0 (>= 3.23.1), libstdc++6 (>= 8.2.0)
+Provides: loc-base-util
+Source: loc-base-util_git.bb

@@ -1,0 +1,13 @@
+/usr/lib/audio.a2dp.default.so
+/usr/lib/libbluetoothdefault.so.0.0.0
+/data/misc/bluetooth/
+/etc/bluetooth/iot_devlist.conf
+/usr/bin/bdt
+/etc/bluetooth/bt_stack.conf
+/persist/bluetooth/
+/usr/lib/libbluetoothdefault.so.0
+/etc/bluetooth/
+/etc/bluetooth/bt_did.conf
+/usr/lib/bluetooth.default.so
+/usr/lib/libbluetoothdefault.so
+/data/misc/bluetooth/iot_devlist.conf

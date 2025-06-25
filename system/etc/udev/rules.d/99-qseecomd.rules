@@ -1,0 +1,1 @@
+ACTION=="add", KERNEL=="qseecom", SUBSYSTEM=="qseecom", OWNER="root", GROUP="root", MODE="0666"

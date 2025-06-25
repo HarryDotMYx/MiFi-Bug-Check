@@ -1,0 +1,3 @@
+/etc/avahi/
+/etc/avahi/avahi-autoipd.action
+/usr/sbin/avahi-autoipd

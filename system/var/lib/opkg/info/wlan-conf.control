@@ -1,0 +1,11 @@
+Package: wlan-conf
+Version: git-r3_perf_perf
+Description: wlan-conf version git-r3_perf_perf
+ Device specific config
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: ISC
+Architecture: armv7at2hf-neon
+OE: wlan-conf
+Source: wlan-conf_git.bb

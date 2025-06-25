@@ -1,0 +1,13 @@
+Package: kernel-module-qce50-4.14.206-perf
+Version: 4.14-r0
+Description: qce50 kernel module
+ qce50 kernel module; Crypto Engine driver
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: linux-msm
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-qce50
+Source: linux-msm_4.14.bb

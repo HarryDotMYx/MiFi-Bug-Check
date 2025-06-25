@@ -1,0 +1,13 @@
+Package: kernel-module-snd-hwdep-4.14.206-perf
+Version: 4.14-r0
+Description: snd-hwdep kernel module
+ snd-hwdep kernel module; Hardware dependent layer
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: linux-msm
+Depends: kernel-4.14.206-perf, kernel-module-snd-4.14.206-perf
+Provides: kernel-module-snd-hwdep
+Source: linux-msm_4.14.bb

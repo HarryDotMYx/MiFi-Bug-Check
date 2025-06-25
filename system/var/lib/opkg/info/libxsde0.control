@@ -1,0 +1,15 @@
+Package: libxsde0
+Version: 3.2.0-r2
+Description: xsde version 3.2.0-r2
+ CodeSynthesis XSD/e is commercially licensed and used for XML Schema to
+ C++ compiler for mobile, embedded, and light-weight applications
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: armv7at2hf-neon
+OE: xsde
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: xsde
+Source: xsde_3.2.0.bb

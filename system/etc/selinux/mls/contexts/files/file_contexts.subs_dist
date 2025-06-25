@@ -1,0 +1,44 @@
+# This file can is used to configure base path aliases as in:
+#
+# /aliased_path /original_path_as_configured_in_file_contexts
+#
+# where original_path_as_configured_in_file_contexts is a base
+# path being used in the main file_contexts configuration file.
+#
+# It does not perform substitutions as done by sed(1), for
+# example, but aliasing.
+#
+/etc/init.d /etc/rc.d/init.d
+/lib/systemd /usr/lib/systemd
+/lib32 /lib
+/lib64 /lib
+/run/lock /var/lock
+/usr/lib32 /usr/lib
+/usr/lib64 /usr/lib
+/usr/local/lib32 /usr/lib
+/usr/local/lib64 /usr/lib
+/usr/local/lib /usr/lib
+
+# backward compatibility
+# not for refpolicy intern, but for /var/run using applications,
+# like systemd tmpfiles or systemd socket configurations
+/var/run /run
+
+# Yocto compatibility
+/var/volatile/log /var/log
+/var/volatile/run /var/run
+/var/volatile/cache /var/cache
+/var/volatile/tmp /var/tmp
+/var/volatile/lock /var/lock
+/var/volatile/run/lock /var/lock
+/www /var/www
+/usr/lib/busybox/bin /bin
+/usr/lib/busybox/sbin /sbin
+/usr/lib/busybox/usr /usr
+
+/lib/busybox/bin /bin
+/lib/busybox/sbin /sbin
+/lib/busybox/usr /usr
+/lib64/busybox/bin /bin
+/lib64/busybox/sbin /sbin
+/lib64/busybox/usr /usr

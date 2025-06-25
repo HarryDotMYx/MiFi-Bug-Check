@@ -1,0 +1,19 @@
+[Unit]
+Description=batter
+After=mobile_svr.service qmi_svr.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/batter
+
+ExecStop=killall -9 batter
+
+Restart=always
+
+RestartSec=5
+
+StartLimitInterval=0
+
+[Install]
+WantedBy=multi-user.target
+

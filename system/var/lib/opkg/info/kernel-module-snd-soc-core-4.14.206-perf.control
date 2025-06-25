@@ -1,0 +1,14 @@
+Package: kernel-module-snd-soc-core-4.14.206-perf
+Version: 4.14-r0
+Description: snd-soc-core kernel module
+ snd-soc-core kernel module; Dynamic Audio Power Management core for ALSA
+ SoC
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: linux-msm
+Depends: kernel-4.14.206-perf, kernel-module-snd-4.14.206-perf, kernel-module-snd-compress-4.14.206-perf, kernel-module-snd-pcm-4.14.206-perf
+Provides: kernel-module-snd-soc-core
+Source: linux-msm_4.14.bb

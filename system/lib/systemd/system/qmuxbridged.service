@@ -1,0 +1,16 @@
+[Unit]
+SourcePath=/usr/bin/qmuxbridge
+Description=Qmuxbridge Service
+After=mount-data.service
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/qmuxbridge
+ExecStartPost=+-chown -h radio.radio /dev/smdcntl1
+ExecStartPost=+-chown -h radio.radio /dev/gps
+User=radio
+Group=radio
+SupplementaryGroups=diag system kmsg wakelock
+
+[Install]
+WantedBy=multi-user.target

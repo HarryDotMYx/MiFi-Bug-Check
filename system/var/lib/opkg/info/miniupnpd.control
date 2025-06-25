@@ -1,0 +1,14 @@
+Package: miniupnpd
+Version: 1.9.20150307-r8
+Description: Lightweight implementation of a UPnP IGD daemon.
+ MiniUPnPd is a low memory daemon which acts as aUPnP device, enabling
+ seamless detection of other UPnP devices/control points.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7at2hf-neon
+OE: miniupnpd
+Homepage: http://miniupnp.free.fr/
+Depends: data (>= git), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libnfnetlink0 (>= 1.0.0), libstdc++6 (>= 8.2.0)
+Source: miniupnpd_1.9.20150307.bb

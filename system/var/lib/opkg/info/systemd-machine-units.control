@@ -1,0 +1,11 @@
+Package: systemd-machine-units
+Version: 1.0-r19
+Description: Machine specific systemd units
+ Machine specific systemd units.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: sdxprairie
+OE: systemd-machine-units
+Source: systemd-machine-units_1.0.bb

@@ -1,0 +1,21 @@
+[Unit]
+Description=lcd
+After=mobile_svr.service qmi_svr.service network_mgr.service batter.service
+Requires=mobile_svr.service qmi_svr.service network_mgr.service batter.service
+
+[Service]
+Type=simple
+ExecStartPre=/bin/sleep 5
+ExecStart=/usr/bin/lcd
+
+ExecStop=killall -9 lcd
+
+Restart=always
+
+RestartSec=5
+
+StartLimitInterval=0
+
+[Install]
+WantedBy=multi-user.target
+

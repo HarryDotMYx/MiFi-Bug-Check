@@ -1,0 +1,7 @@
+/usr/lib/openvpn/plugins/openvpn-plugin-auth-pam.so
+/usr/bin/openvpn
+/usr/lib/openvpn/
+/usr/lib/openvpn/plugins/
+/usr/sbin/openvpn
+/usr/lib/openvpn/plugins/openvpn-plugin-down-root.so
+/etc/openvpn/

@@ -1,0 +1,12 @@
+Package: kernel-4.14.206-perf
+Version: 4.14-r0
+Description: linux-msm version 4.14-r0
+ CAF Linux Kernel
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: linux-msm
+Provides: kernel-4.14.206-perf, kernel-base
+Source: linux-msm_4.14.bb

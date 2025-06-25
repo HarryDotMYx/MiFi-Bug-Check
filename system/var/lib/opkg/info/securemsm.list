@@ -1,0 +1,6 @@
+/vendor/
+/usr/bin/km_lite_sample_client
+/vendor/etc/
+/usr/bin/qseecom_sample_client
+/usr/bin/qseecomd
+/vendor/etc/gpfspath_le_oem_config.xml

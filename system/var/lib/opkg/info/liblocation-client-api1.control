@@ -1,0 +1,13 @@
+Package: liblocation-client-api1
+Version: git-r1
+Description: location-client-api version git-r1
+ location client api library
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: sdxprairie
+OE: location-client-api
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), liblocation-api-msg-proto1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0), protobuf (>= 3.3.0+git0+a6189acd18)
+Provides: location-client-api
+Source: location-client-api_git.bb

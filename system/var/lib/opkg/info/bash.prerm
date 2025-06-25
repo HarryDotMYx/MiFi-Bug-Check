@@ -1,0 +1,5 @@
+set -e
+  # Remove /bin/bash from shell alternatives
+  update-alternatives --remove sh /bin/bash
+	update-alternatives --remove  bash /bin/bash.bash
+	update-alternatives --remove  sh /bin/bash.bash

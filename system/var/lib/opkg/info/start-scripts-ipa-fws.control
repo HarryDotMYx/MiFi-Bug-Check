@@ -1,0 +1,11 @@
+Package: start-scripts-ipa-fws
+Version: 1.0-r2
+Description: start-scripts-ipa-fws version 1.0-r2
+ Script to trigger loading of IPA FWs
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: armv7at2hf-neon
+OE: start-scripts-ipa-fws
+Source: start-scripts-ipa-fws.bb

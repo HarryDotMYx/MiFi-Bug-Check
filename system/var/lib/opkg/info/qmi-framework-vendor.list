@@ -1,0 +1,12 @@
+/usr/lib/libqrtr.so.1
+/usr/bin/irsc_util
+/usr/bin/qrtr-cfg
+/usr/bin/qrtr-lookup
+/usr/lib/libqrtr.so.1.0.0
+/usr/lib/libqsocket.so.1
+/usr/bin/qrtr-ns
+/lib/systemd/system/sysinit.target.wants/irsc_util.service
+/lib/systemd/system/irsc_util.service
+/lib/systemd/system/sysinit.target.wants/qrtr_ns.service
+/usr/lib/libqsocket.so.1.0.0
+/lib/systemd/system/qrtr_ns.service

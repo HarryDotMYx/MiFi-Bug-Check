@@ -1,0 +1,11 @@
+Package: sec-config
+Version: 1.0-r0
+Description: sec-config version 1.0-r0
+ sec-config file for sensors
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: armv7at2hf-neon
+OE: sec-config
+Source: sec-config.bb

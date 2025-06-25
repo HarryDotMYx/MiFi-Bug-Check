@@ -1,0 +1,13 @@
+Package: thermal-engine
+Version: git-r12
+Description: thermal-engine version git-r12
+ Thermal Engine
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: thermal-engine
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0), qmi-framework (>= git)
+Source: thermal-engine_git.bb

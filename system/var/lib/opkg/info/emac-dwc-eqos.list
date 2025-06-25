@@ -1,0 +1,9 @@
+/lib/systemd/system/multi-user.target.wants/emac_dwc_eqos.service
+/lib/modules/4.14.206-perf/extra/emac_dwc_eqos.ko
+/lib/systemd/system/multi-user.target.wants/setup_avtp_routing_le.service
+/lib/systemd/system/sockets.target.wants/emac_dwc_eqos.service
+/etc/initscripts/emac_dwc_eqos_start_stop_le
+/lib/systemd/system/setup_avtp_routing_le.service
+/lib/systemd/system/emac_dwc_eqos.service
+/etc/initscripts/setup_avtp_routing_le
+/lib/systemd/system/sockets.target.wants/

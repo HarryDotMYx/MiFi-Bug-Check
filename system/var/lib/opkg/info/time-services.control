@@ -1,0 +1,13 @@
+Package: time-services
+Version: git-r9
+Description: time-services version git-r9
+ Time Services Daemon
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: time-services
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0), liblog0 (>= 1.0), qmi-framework (>= git)
+Source: time-services_git.bb

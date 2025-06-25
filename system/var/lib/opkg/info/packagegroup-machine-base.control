@@ -1,0 +1,11 @@
+Package: packagegroup-machine-base
+Version: 1.0-r83
+Description: Extra packages required to fully support sdxprairie hardware
+ Merge machine and distro options to create a basic machine task/package.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: sdxprairie
+OE: packagegroup-base
+Source: packagegroup-base.bb

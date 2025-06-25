@@ -1,0 +1,13 @@
+Package: qapi-demo-app
+Version: git-r5
+Description: qapi-demo-app version git-r5
+ QAPI demo application
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: qapi-demo-app
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libgps-utils1 (>= git), liblocation-qapi1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Source: qapi-demo-app_git.bb

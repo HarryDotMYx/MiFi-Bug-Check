@@ -1,0 +1,13 @@
+/lib/systemd/system/ffbm.target.wants/adbd.service
+/etc/initscripts/adbd
+/lib/systemd/system/ffbm.target.wants/pcie.service
+/lib/systemd/system/adbd.service
+/lib/systemd/system/local-fs.target.wants/adbd.service
+/lib/systemd/system/pcie.service
+/lib/systemd/system/local-fs.target.wants/pcie.service
+/sbin/adbd
+/etc/launch_adbd
+/usr/lib/libadbd.so.0
+/etc/adb_devid
+/etc/start_pcie
+/usr/lib/libadbd.so.0.0.0

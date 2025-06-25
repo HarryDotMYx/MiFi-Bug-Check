@@ -1,0 +1,15 @@
+[Unit]
+Description= SSREQ server Service
+SourcePath=/usr/bin/ssreq-server
+DefaultDependencies=no
+Before=init_sys_mss.service
+After=QCMAP_Bootup.service
+
+[Service]
+User=system
+Group=system
+Restart=always
+ExecStart=/usr/bin/ssreq_server
+
+[Install]
+WantedBy=local-fs.target

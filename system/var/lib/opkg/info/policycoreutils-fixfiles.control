@@ -1,0 +1,16 @@
+Package: policycoreutils-fixfiles
+Version: 2.8-r0
+Description: SELinux policy core utilities
+ policycoreutils contains the policy core utilities that are required for
+ basic operation of a SELinux system.  These utilities include load_policy
+ to load policies, setfiles to label filesystems, newrole to switch roles,
+ and run_init to run /etc/init.d scripts in the proper context.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: armv7at2hf-neon
+OE: policycoreutils
+Homepage: https://github.com/SELinuxProject
+Depends: findutils, grep, policycoreutils-setfiles
+Source: policycoreutils_2.8.bb

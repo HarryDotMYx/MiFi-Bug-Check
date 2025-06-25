@@ -1,0 +1,2 @@
+/usr/bin/aqc_gsi_stats
+/lib/systemd/system/aqc-ipa-offload.service

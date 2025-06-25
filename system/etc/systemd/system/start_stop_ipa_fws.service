@@ -1,0 +1,18 @@
+[Unit]
+SourcePath=/etc/init.d/ipa_fws_le
+Description=IPA FW Service
+After=systemrw.mount firmware.mount
+Requires=firmware.mount
+DefaultDependencies=no
+
+[Service]
+Restart=no
+ExecStartPre=/sbin/mount-copybind /systemrw/data/ipa_config.txt /etc/data/ipa_config.txt
+ExecStart=/etc/initscripts/ipa_fws_le
+ExecStartPre=/sbin/mount-copybind /systemrw/data/ipa/IPACM_cfg.xml /etc/data/ipa/IPACM_cfg.xml
+ExecStartPost=+chmod 660 /dev/ipa
+ExecStartPost=+chown -h radio.radio /dev/ipa
+SupplementaryGroups=radio
+
+[Install]
+WantedBy=local-fs.target

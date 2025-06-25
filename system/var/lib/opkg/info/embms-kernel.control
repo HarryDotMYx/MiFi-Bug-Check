@@ -1,0 +1,12 @@
+Package: embms-kernel
+Version: git-r0
+Description: embms-kernel version git-r0
+ Embms Kernel Module
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: ISC
+Architecture: sdxprairie
+OE: embms-kernel
+Depends: kernel-module-embms-kernel-4.14.206-perf
+Source: embms-kernel_git.bb

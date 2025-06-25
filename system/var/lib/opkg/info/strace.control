@@ -1,0 +1,13 @@
+Package: strace
+Version: 4.24-r0
+Description: System call tracing tool
+ System call tracing tool.
+Section: console/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7at2hf-neon
+OE: strace
+Homepage: http://strace.io
+Depends: libc6 (>= 2.28)
+Source: strace_4.24.bb

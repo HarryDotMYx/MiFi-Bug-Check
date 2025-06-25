@@ -1,0 +1,15 @@
+#!/bin/sh
+set -e
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop systemrw-adb_devid.service systemrw-build.prop.service systemrw-data.service systemrw-data-adpl.service systemrw-data-usb.service systemrw-data-miniupnpd.service systemrw-data-ipa.service systemrw-rt_tables.service systemrw-boot_hsusb_comp.service systemrw-boot_hsic_comp.service systemrw-misc-wifi.service systemrw-bluetooth.service systemrw-allplay.service
+	fi
+
+	systemctl $OPTS disable systemrw-adb_devid.service systemrw-build.prop.service systemrw-data.service systemrw-data-adpl.service systemrw-data-usb.service systemrw-data-miniupnpd.service systemrw-data-ipa.service systemrw-rt_tables.service systemrw-boot_hsusb_comp.service systemrw-boot_hsic_comp.service systemrw-misc-wifi.service systemrw-bluetooth.service systemrw-allplay.service
+fi

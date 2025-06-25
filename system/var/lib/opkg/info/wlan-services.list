@@ -1,0 +1,4 @@
+/etc/initscripts/start_wlan_services
+/usr/sbin/wlan_services
+/etc/systemd/system/start_wlan_services.service
+/etc/systemd/system/multi-user.target.wants/start_wlan_services.service

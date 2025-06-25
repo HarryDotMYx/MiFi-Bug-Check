@@ -1,0 +1,20 @@
+[Unit]
+Description=ubus daemon
+After=network.target
+Before=router_daemon.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/ubusd
+
+ExecStop=killall -9 ubusd
+
+Restart=always
+
+RestartSec=5
+
+StartLimitInterval=0
+
+[Install]
+WantedBy=multi-user.target
+

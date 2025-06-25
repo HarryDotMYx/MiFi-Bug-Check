@@ -1,0 +1,17 @@
+# Copyright (c) 2017,2019-2020 Qualcomm Technologies, Inc.
+# All Rights Reserved.
+# Confidential and Proprietary - Qualcomm Technologies, Inc.
+
+[Unit]
+Description=sfs configuration Service
+SourcePath=/sbin/sfs_config
+After=qseecomd.service persist.mount data.mount
+
+[Service]
+Restart=no
+RemainAfterExit=yes
+ExecStart=/sbin/sfs_config
+ExecStop=/sbin/sfs_config
+
+[Install]
+WantedBy=multi-user.target

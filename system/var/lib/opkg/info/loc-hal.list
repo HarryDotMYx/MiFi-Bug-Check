@@ -1,0 +1,3 @@
+/etc/gps.conf
+/usr/lib/pkgconfig/loc-hal.pc
+/usr/lib/libgnss.so

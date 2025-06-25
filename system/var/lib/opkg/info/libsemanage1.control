@@ -1,0 +1,18 @@
+Package: libsemanage1
+Version: 2.8-r0
+Description: SELinux binary policy manipulation library
+ libsemanage provides an API for the manipulation of SELinux binary
+ policies. It is used by checkpolicy (the policy compiler) and similar
+ tools, as well as by programs like load_policy that need to perform
+ specific transformations on binary policies such as customizing policy
+ boolean settings.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1+
+Architecture: armv7at2hf-neon
+OE: libsemanage
+Homepage: https://github.com/SELinuxProject
+Depends: audit (>= 2.8.4), libbz2-1 (>= 1.0.6), libc6 (>= 2.28), libselinux1 (>= 2.8), libsepol1 (>= 2.8)
+Provides: libsemanage
+Source: libsemanage_2.8.bb

@@ -1,0 +1,7 @@
+set -e
+    if false; then
+        [ -n "$D" ] && OPT="-r $D" || OPT="-s"
+        # remove all rc.d-links potentially created from alternatives
+        update-rc.d $OPT -f start_fs-scrub-daemon remove
+        update-rc.d $OPT start_fs-scrub-daemon start 99 2 3 4 5 . stop 1 0 1 6 .
+    fi

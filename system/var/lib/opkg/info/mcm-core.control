@@ -1,0 +1,13 @@
+Package: mcm-core
+Version: git-r5
+Description: mcm-core version git-r5
+ QTI Mobile Connection Manager Core libraries and Service
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: mcm-core
+Homepage: http://support.cdmatech.com
+Depends: data (>= git), libc6 (>= 2.28), libdiag1 (>= git), libdsutils1 (>= git), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libqmi-client-helper1 (>= git), libstdc++6 (>= 8.2.0), qmi (>= git), qmi-framework (>= git)
+Source: mcm-core_git.bb

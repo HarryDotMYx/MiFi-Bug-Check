@@ -1,0 +1,14 @@
+Package: libxtadapter1
+Version: git-r1
+Description: xt-adapter version git-r1
+ GPS xt adapter
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: xt-adapter
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libizat-core1 (>= git), libloc-core1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: xt-adapter
+Source: xt-adapter_git.bb

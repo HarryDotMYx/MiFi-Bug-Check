@@ -1,0 +1,13 @@
+Package: kernel-module-snd-pcm-4.14.206-perf
+Version: 4.14-r0
+Description: snd-pcm kernel module
+ snd-pcm kernel module; Midlevel PCM code for ALSA.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: linux-msm
+Depends: kernel-4.14.206-perf, kernel-module-snd-4.14.206-perf, kernel-module-snd-timer-4.14.206-perf
+Provides: kernel-module-snd-pcm
+Source: linux-msm_4.14.bb

@@ -1,0 +1,21 @@
+[Unit]
+SourcePath=/usr/bin/mbimd
+Description=QTI Mobile Broadband Service
+After=data.mount usb.service
+DefaultDependencies=no
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/mbimd
+ExecStartPost=+-chown -h radio.radio /dev/mhi_pipe_12
+ExecStartPost=+-chown -h radio.radio /dev/mhi_ctrl
+ExecStartPost=+-chown -h radio.radio /dev/smdcntl0
+ExecStartPost=+-chown -h radio.radio /dev/android_mbim
+ExecStartPost=+-chown -h radio.radio /dev/ipa
+User=radio
+Group=radio
+AmbientCapabilities=CAP_BLOCK_SUSPEND
+SupplementaryGroups=diag system kmsg wakelock
+
+[Install]
+WantedBy=local-fs.target

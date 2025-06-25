@@ -1,0 +1,15 @@
+Package: coreutils
+Version: 8.30-r0
+Description: The basic file, shell and text manipulation utilities
+ The GNU Core Utilities provide the basic file, shell and text
+ manipulation utilities. These are the core utilities which are expected
+ to exist on every system.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv3+
+Architecture: armv7at2hf-neon
+OE: coreutils
+Homepage: http://www.gnu.org/software/coreutils/
+Depends: libattr1 (>= 2.4.47), libc6 (>= 2.28), libselinux1 (>= 2.8), update-alternatives-opkg
+Source: coreutils_8.30.bb

@@ -1,0 +1,12 @@
+Package: gsb
+Version: git-r0
+Description: gsb version git-r0
+ Generic Software Bridge Driver
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0
+Architecture: sdxprairie
+OE: gsb
+Depends: kernel-module-gsb-4.14.206-perf
+Source: gsb_git.bb

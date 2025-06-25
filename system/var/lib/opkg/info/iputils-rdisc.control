@@ -1,0 +1,14 @@
+Package: iputils-rdisc
+Version: s20180629-r0
+Description: Network monitoring tools
+ Utilities for the IP protocol, including traceroute6, tracepath,
+ tracepath6, ping, ping6 and arping.
+Section: console/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD & GPLv2+
+Architecture: armv7at2hf-neon
+OE: iputils
+Homepage: https://github.com/iputils/iputils
+Depends: libc6 (>= 2.28)
+Source: iputils_s20180629.bb

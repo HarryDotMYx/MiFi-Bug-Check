@@ -1,0 +1,14 @@
+Package: libsystemdq0
+Version: 1:1.0-r0
+Description: Systemd systemdq library
+ Systemd systemdq library
+Section: base/shell
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1
+Architecture: armv7at2hf-neon
+OE: libsystemdq
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Depends: base-files, base-passwd, dbus-1, kmod, libc6 (>= 2.28), libcap2 (>= 2.25), libmount1 (>= 2.32.1), shadow, systemd-conf, update-rc.d, util-linux-agetty, util-linux-fsck, util-linux-mount, volatile-binds
+Provides: libsystemdq
+Source: libsystemdq.bb

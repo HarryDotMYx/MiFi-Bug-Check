@@ -1,0 +1,13 @@
+Package: qrencode
+Version: git-r0
+Description: qrencode version git-r0
+ qrencode application
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: qrencode
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), libpng12 (>= 1.2.59)
+Source: qrencode_git.bb

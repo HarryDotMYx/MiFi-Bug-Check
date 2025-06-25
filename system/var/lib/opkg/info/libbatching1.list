@@ -1,0 +1,7 @@
+/usr/include/location-batching/
+/etc/flp.conf
+/usr/include/location-batching/BatchingAdapter.h
+/usr/lib/pkgconfig/location-batching.pc
+/usr/lib/libbatching.so
+/usr/lib/libbatching.so.1
+/usr/lib/libbatching.so.1.0.0

@@ -1,0 +1,13 @@
+Package: ddclient
+Version: 3.8.1-r7
+Description: ddclient version 3.8.1-r7
+ DDClient is a perl based dynamic DNS Utility
+Section: console/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7at2hf-neon
+OE: ddclient
+Homepage: http://sourceforge.net/projects/ddclient/
+Depends: perl, perl-module-autoloader, perl-module-carp, perl-module-config, perl-module-constant, perl-module-dynaloader, perl-module-errno, perl-module-exporter, perl-module-exporter-heavy, perl-module-getopt-long, perl-module-integer, perl-module-io, perl-module-io-handle, perl-module-io-select, perl-module-io-socket, perl-module-io-socket-inet, perl-module-io-socket-unix, perl-module-overload, perl-module-selectsaver, perl-module-socket, perl-module-strict, perl-module-symbol, perl-module-sys-hostname, perl-module-vars, perl-module-warnings, perl-module-warnings-register, perl-module-xsloader
+Source: ddclient_3.8.1.bb

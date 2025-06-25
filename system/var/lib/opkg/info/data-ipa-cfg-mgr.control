@@ -1,0 +1,12 @@
+Package: data-ipa-cfg-mgr
+Version: git-r4
+Description: data-ipa-cfg-mgr version git-r4
+ Qualcomm IPA
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7at2hf-neon
+OE: data-ipa-cfg-mgr
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libnetfilter-conntrack3 (>= 0.9.1), libstdc++6 (>= 8.2.0), libxml2 (>= 2.9.8)
+Source: data-ipa-cfg-mgr_git.bb

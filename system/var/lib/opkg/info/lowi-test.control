@@ -1,0 +1,13 @@
+Package: lowi-test
+Version: git-r1
+Description: lowi-test version git-r1
+ GPS lowi test
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: lowi-test
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libloc-base-util1 (>= git), liblowi-client1 (>= git), libstdc++6 (>= 8.2.0), libxml2 (>= 2.9.8)
+Source: lowi-test_git.bb

@@ -1,0 +1,13 @@
+Package: zerotierone
+Version: 1.0-r0
+Description: zerotierone version 1.0-r0
+ ZeroTierOne application
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: zerotierone
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Source: zerotierone.bb

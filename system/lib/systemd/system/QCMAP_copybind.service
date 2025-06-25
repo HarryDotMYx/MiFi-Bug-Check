@@ -1,0 +1,15 @@
+[Unit]
+Description= QCMAP_copybind service
+After=systemrw.mount
+Before=usb.service QCMAP_ConnectionManagerd.service
+DefaultDependencies=no
+
+[Service]
+ExecStartPre=/sbin/mount-copybind /systemrw/data/mobileap_cfg.xml /etc/data/mobileap_cfg.xml
+ExecStartPre=/sbin/mount-copybind /systemrw/data/mobileap_firewall.xml /etc/data/mobileap_firewall.xml
+ExecStartPre=/sbin/mount-copybind /systemrw/data/wlan_cfg.xml /etc/data/wlan_cfg.xml
+ExecStartPre=/sbin/mount-copybind /systemrw/data/l2tp_cfg.xml /etc/data/l2tp_cfg.xml
+ExecStart=/sbin/mount-copybind /systemrw/data/hosts /etc/data/hosts
+
+[Install]
+WantedBy=local-fs.target

@@ -1,0 +1,14 @@
+Package: bt-dlkm
+Version: git-r0
+Description: bt-dlkm version git-r0
+ Bluetooth Kernel Modules
+Section: qti-bt
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause & GPLv2
+Architecture: sdxprairie
+OE: bt-dlkm
+Homepage: https://source.codeaurora.org/quic/le/meta-qti-bt
+Depends: kernel-module-bluetooth-power-4.14.206-perf
+Provides: kernel-module-bluetooth-power-4.14.206-perf
+Source: bt-dlkm_git.bb

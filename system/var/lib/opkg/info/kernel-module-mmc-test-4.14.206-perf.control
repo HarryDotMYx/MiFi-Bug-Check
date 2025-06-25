@@ -1,0 +1,13 @@
+Package: kernel-module-mmc-test-4.14.206-perf
+Version: 4.14-r0
+Description: mmc-test kernel module
+ mmc-test kernel module; Multimedia Card (MMC) host test driver
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: linux-msm
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-mmc-test
+Source: linux-msm_4.14.bb

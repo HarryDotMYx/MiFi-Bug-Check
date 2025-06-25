@@ -1,0 +1,12 @@
+Package: packagegroup-selinux-minimal
+Version: 1.0-r0
+Description: packagegroup-selinux-minimal version 1.0-r0
+ SELinux packagegroup with only packages required for basic operations
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: armv7at2hf-neon
+OE: packagegroup-selinux-minimal
+Depends: coreutils, libselinux-bin, libselinux1, libsemanage1, libsepol1, policycoreutils-fixfiles, policycoreutils-secon, policycoreutils-semodule, policycoreutils-sestatus, policycoreutils-setfiles, refpolicy
+Source: packagegroup-selinux-minimal.bb

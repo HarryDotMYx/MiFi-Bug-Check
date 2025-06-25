@@ -1,0 +1,142 @@
+#!/bin/sh
+set -e
+bbnote () {
+	echo "NOTE: $*"
+}
+bbwarn () {
+	echo "WARNING: $*"
+}
+bbfatal () {
+	echo "ERROR: $*"
+	exit 1
+}
+perform_groupadd () {
+	local rootdir="$1"
+	local opts="$2"
+	bbnote "system-core: Performing groupadd with [$opts]"
+	local groupname=`echo "$opts" | awk '{ print $NF }'`
+	local group_exists="`grep "^$groupname:" $rootdir/etc/group || true`"
+	if test "x$group_exists" = "x"; then
+		eval flock -x $rootdir/etc -c \"$PSEUDO groupadd \$opts\" || true
+		group_exists="`grep "^$groupname:" $rootdir/etc/group || true`"
+		if test "x$group_exists" = "x"; then
+			bbfatal "system-core: groupadd command did not succeed."
+		fi
+	else
+		bbnote "system-core: group $groupname already exists, not re-creating it"
+	fi
+}
+perform_useradd () {
+	local rootdir="$1"
+	local opts="$2"
+	bbnote "system-core: Performing useradd with [$opts]"
+	local username=`echo "$opts" | awk '{ print $NF }'`
+	local user_exists="`grep "^$username:" $rootdir/etc/passwd || true`"
+	if test "x$user_exists" = "x"; then
+		eval flock -x $rootdir/etc -c  \"$PSEUDO useradd \$opts\" || true
+		user_exists="`grep "^$username:" $rootdir/etc/passwd || true`"
+		if test "x$user_exists" = "x"; then
+			bbfatal "system-core: useradd command did not succeed."
+		fi
+	else
+		bbnote "system-core: user $username already exists, not re-creating it"
+	fi
+}
+perform_groupmems () {
+	local rootdir="$1"
+	local opts="$2"
+	bbnote "system-core: Performing groupmems with [$opts]"
+	local groupname=`echo "$opts" | awk '{ for (i = 1; i < NF; i++) if ($i == "-g" || $i == "--group") print $(i+1) }'`
+	local username=`echo "$opts" | awk '{ for (i = 1; i < NF; i++) if ($i == "-a" || $i == "--add") print $(i+1) }'`
+	bbnote "system-core: Running groupmems command with group $groupname and user $username"
+	local mem_exists="`grep "^$groupname:[^:]*:[^:]*:\([^,]*,\)*$username\(,[^,]*\)*$" $rootdir/etc/group || true`"
+	if test "x$mem_exists" = "x"; then
+		eval flock -x $rootdir/etc -c \"$PSEUDO groupmems \$opts\" || true
+		mem_exists="`grep "^$groupname:[^:]*:[^:]*:\([^,]*,\)*$username\(,[^,]*\)*$" $rootdir/etc/group || true`"
+		if test "x$mem_exists" = "x"; then
+			bbfatal "system-core: groupmems command did not succeed."
+		fi
+	else
+		bbnote "system-core: group $groupname already contains $username, not re-adding it"
+	fi
+}
+OPT=""
+SYSROOT=""
+
+if test "x$D" != "x"; then
+	# Installing into a sysroot
+	SYSROOT="$D"
+	OPT="--root $D"
+
+	# Make sure login.defs is there, this is to make debian package backend work
+	# correctly while doing rootfs.
+	# The problem here is that if /etc/login.defs is treated as a config file for
+	# shadow package, then while performing preinsts for packages that depend on
+	# shadow, there might only be /etc/login.def.dpkg-new there in root filesystem.
+	if [ ! -e $D/etc/login.defs -a -e $D/etc/login.defs.dpkg-new ]; then
+	    cp $D/etc/login.defs.dpkg-new $D/etc/login.defs
+	fi
+
+	# user/group lookups should match useradd/groupadd --root
+	export PSEUDO_PASSWD="$SYSROOT"
+fi
+
+# If we're not doing a special SSTATE/SYSROOT install
+# then set the values, otherwise use the environment
+if test "x$UA_SYSROOT" = "x"; then
+	# Installing onto a target
+	# Add groups and users defined only for this package
+	GROUPADD_PARAM=" -g 2901 kmsg; -g 3004 net_raw; -g 3005 net_admin; -g 3009 readproc; -g 3010 wakelock; -g 3013 qwes; "
+	USERADD_PARAM=" -u 5002 -U leprop; -u 1000 -U system; -u 1001 -U radio; -G leprop -u 1002 -U bluetooth; -u 1003 -U graphics; -u 1004 -g input input; -G diag,system -u 1005 -g audio audio; -G inet,system,leprop -u 1006 -U camera; -u 1010 -U wifi; -u 1013 -U media; -u 1036 -U logd; -u 2000 -U adb; -G diag,inet,system,leprop -u 3011 -U sensors; -u 4000 -U apps; -u 9999 -U nobody; -G audio,camera,system,leprop,video -u 5000 -U qmmfsvr; -G audio,camera,input,system,inet,leprop,video -u 5001 -U qmmfwebsvr; -G audio,camera,input,system,inet,leprop,video -u 5003 -U ipcwebsvr; -u 4021 -U locclient; -G system,locclient -u 1021 -U gps; -G system,diag,radio -u 4023 -U mcm; -u 3014 -U powermgr; -u 3015 -U ubi; -u 3016 -U vnw; -u 2906 -U qrtr; "
+	GROUPMEMS_PARAM="${GROUPMEMS_PARAM}"
+fi
+
+# Perform group additions first, since user additions may depend
+# on these groups existing
+if test "x`echo $GROUPADD_PARAM | tr -d '[:space:]'`" != "x"; then
+	echo "Running groupadd commands..."
+	# Invoke multiple instances of groupadd for parameter lists
+	# separated by ';'
+	opts=`echo "$GROUPADD_PARAM" | cut -d ';' -f 1 | sed -e 's#[ \t]*$##'`
+	remaining=`echo "$GROUPADD_PARAM" | cut -d ';' -f 2- | sed -e 's#[ \t]*$##'`
+	while test "x$opts" != "x"; do
+		perform_groupadd "$SYSROOT" "$OPT $opts"
+		if test "x$opts" = "x$remaining"; then
+			break
+		fi
+		opts=`echo "$remaining" | cut -d ';' -f 1 | sed -e 's#[ \t]*$##'`
+		remaining=`echo "$remaining" | cut -d ';' -f 2- | sed -e 's#[ \t]*$##'`
+	done
+fi
+
+if test "x`echo $USERADD_PARAM | tr -d '[:space:]'`" != "x"; then
+	echo "Running useradd commands..."
+	# Invoke multiple instances of useradd for parameter lists
+	# separated by ';'
+	opts=`echo "$USERADD_PARAM" | cut -d ';' -f 1 | sed -e 's#[ \t]*$##'`
+	remaining=`echo "$USERADD_PARAM" | cut -d ';' -f 2- | sed -e 's#[ \t]*$##'`
+	while test "x$opts" != "x"; do
+		perform_useradd "$SYSROOT" "$OPT $opts"
+		if test "x$opts" = "x$remaining"; then
+			break
+		fi
+		opts=`echo "$remaining" | cut -d ';' -f 1 | sed -e 's#[ \t]*$##'`
+		remaining=`echo "$remaining" | cut -d ';' -f 2- | sed -e 's#[ \t]*$##'`
+	done
+fi
+
+if test "x`echo $GROUPMEMS_PARAM | tr -d '[:space:]'`" != "x"; then
+	echo "Running groupmems commands..."
+	# Invoke multiple instances of groupmems for parameter lists
+	# separated by ';'
+	opts=`echo "$GROUPMEMS_PARAM" | cut -d ';' -f 1 | sed -e 's#[ \t]*$##'`
+	remaining=`echo "$GROUPMEMS_PARAM" | cut -d ';' -f 2- | sed -e 's#[ \t]*$##'`
+	while test "x$opts" != "x"; do
+		perform_groupmems "$SYSROOT" "$OPT $opts"
+		if test "x$opts" = "x$remaining"; then
+			break
+		fi
+		opts=`echo "$remaining" | cut -d ';' -f 1 | sed -e 's#[ \t]*$##'`
+		remaining=`echo "$remaining" | cut -d ';' -f 2- | sed -e 's#[ \t]*$##'`
+	done
+fi

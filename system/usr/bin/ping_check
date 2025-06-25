@@ -1,0 +1,17 @@
+#!/bin/sh
+echo "ping www.google.com ..."
+result=$(ping -i 0.5 -c 3 -W 2 www.google.com | grep "packets transmitted" | awk '{print $4}')
+
+if [ $result -eq 0 ];then
+	echo "ping www.bing.com ..."
+	result=$(ping -i 0.5 -c 3 -W 2 www.bing.com | grep "packets transmitted" | awk '{print $4}')
+fi
+
+if [ $result -eq 0 ];then
+	echo "ping www.yahoo.com ..."
+        result=$(ping -i 0.5 -c 3 -W 2 www.yahoo.com | grep "packets transmitted" | awk '{print $4}')
+fi
+
+echo "ping result: $result"
+
+echo $result > /tmp/ping_check_result

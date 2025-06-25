@@ -1,0 +1,7 @@
+/lib/systemd/system/mbimd.service
+/usr/bin/mbimd
+/lib/systemd/system/mbim_fw_update@.service
+/etc/initscripts/mbim_fw_script.sh
+/etc/tmpfiles.d/mbim.conf
+/lib/systemd/system/local-fs.target.wants/mbimd.service
+/etc/udev/rules.d/mbim_udev_rules.rules

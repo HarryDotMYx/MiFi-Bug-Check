@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: locsys-info-cache
+Description: GPS sys info cache
+Version: @VERSION
+Libs: -L${libdir} -lsys_info_cache
+Cflags: -I${includedir} -I${includedir}/sys-info-cache

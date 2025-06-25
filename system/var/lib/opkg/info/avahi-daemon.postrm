@@ -1,0 +1,3 @@
+set -e
+	deluser avahi || true
+	delgroup avahi || true

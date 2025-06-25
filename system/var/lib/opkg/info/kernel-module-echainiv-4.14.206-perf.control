@@ -1,0 +1,13 @@
+Package: kernel-module-echainiv-4.14.206-perf
+Version: 4.14-r0
+Description: echainiv kernel module
+ echainiv kernel module; Encrypted Chain IV Generator
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: linux-msm
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-echainiv
+Source: linux-msm_4.14.bb

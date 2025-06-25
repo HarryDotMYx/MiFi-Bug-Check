@@ -1,0 +1,13 @@
+Package: kernel-module-u-audio-4.14.206-perf
+Version: 4.14-r0
+Description: u-audio kernel module
+ u-audio kernel module; USB gadget "ALSA sound card" utilities
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: linux-msm
+Depends: kernel-4.14.206-perf, kernel-module-snd-4.14.206-perf, kernel-module-snd-pcm-4.14.206-perf
+Provides: kernel-module-u-audio
+Source: linux-msm_4.14.bb

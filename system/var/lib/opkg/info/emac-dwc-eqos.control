@@ -1,0 +1,13 @@
+Package: emac-dwc-eqos
+Version: git-r0_perf_perf
+Description: emac-dwc-eqos version git-r0_perf_perf
+ EMAC Ethernet driver
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT-style
+Architecture: sdxprairie
+OE: emac-dwc-eqos
+Depends: kernel-module-emac-dwc-eqos-4.14.206-perf
+Provides: kernel-module-emac-dwc-eqos-4.14.206-perf
+Source: emac-dwc-eqos_git.bb

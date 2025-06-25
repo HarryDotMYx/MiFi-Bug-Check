@@ -1,0 +1,5 @@
+/etc/hostname
+/etc/shells
+/etc/motd
+/etc/nsswitch.conf
+/etc/profile

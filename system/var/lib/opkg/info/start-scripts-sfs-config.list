@@ -1,0 +1,3 @@
+/etc/systemd/system/multi-user.target.wants/sfsconfig.service
+/sbin/sfs_config
+/etc/systemd/system/sfsconfig.service

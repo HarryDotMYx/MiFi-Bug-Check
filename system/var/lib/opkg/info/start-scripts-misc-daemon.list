@@ -1,0 +1,3 @@
+/etc/systemd/system/multi-user.target.wants/misc_daemon.service
+/etc/initscripts/misc-daemon
+/etc/systemd/system/misc_daemon.service

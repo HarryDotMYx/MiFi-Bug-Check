@@ -1,0 +1,14 @@
+Package: libdiag1
+Version: git-r10
+Description: diag version git-r10
+ Library and routing applications for diagnostic traffic
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: diag
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0), liblog0 (>= 1.0), libtime-genoff1 (>= git)
+Provides: diag
+Source: diag_git.bb

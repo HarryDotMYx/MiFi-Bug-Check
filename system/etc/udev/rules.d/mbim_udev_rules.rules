@@ -1,0 +1,8 @@
+ACTION=="add", KERNEL=="android_mbim", OWNER="radio", GROUP="radio", MODE="0640"
+ACTION=="add", KERNEL=="smdcntl0", OWNER="radio", GROUP="radio", MODE="0640"
+ACTION=="add", KERNEL=="mhi_pipe_12", OWNER="radio", GROUP="radio", MODE="0640"
+ACTION=="add", KERNEL=="mhi_ctrl", OWNER="radio", GROUP="radio", MODE="0640"
+ACTION=="add", KERNEL=="ipa", OWNER="radio", GROUP="radio", MODE="0640"
+ACTION=="add", KERNEL=="gps", OWNER="radio", GROUP="radio", MODE="0640"
+ACTION=="add", KERNEL=="smdcntl1", OWNER="radio", GROUP="radio", MODE="0640"
+ACTION=="add", SUBSYSTEM=="gpio", RUN="/bin/sh -c \"chown -R radio:radio /sys/devices/platform/f100000.pinctrl/gpiochip0/gpio/gpio94\""

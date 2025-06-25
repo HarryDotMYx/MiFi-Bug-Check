@@ -1,0 +1,13 @@
+Package: kernel-module-msm-geni-ir-4.14.206-perf
+Version: 4.14-r0
+Description: msm-geni-ir kernel module
+ msm-geni-ir kernel module; GENI IR Driver
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: linux-msm
+Depends: kernel-4.14.206-perf
+Provides: kernel-module-msm-geni-ir
+Source: linux-msm_4.14.bb

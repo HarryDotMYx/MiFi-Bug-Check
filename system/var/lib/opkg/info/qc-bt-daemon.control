@@ -1,0 +1,13 @@
+Package: qc-bt-daemon
+Version: git-r0
+Description: qc-bt-daemon version git-r0
+ Bluetooth QC Daemon
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: qc-bt-daemon
+Homepage: http://support.cdmatech.com
+Depends: data (>= git), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0), qmi-framework (>= git)
+Source: qc-bt-daemon_git.bb

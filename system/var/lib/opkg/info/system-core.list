@@ -1,0 +1,12 @@
+/usr/bin/fs_mgr
+/usr/lib/pkgconfig/logwrapper.pc
+/usr/lib/libfs_mgr.so.0
+/usr/lib/liblogwrap.so.0
+/usr/bin/logcat
+/usr/bin/logwrapper
+/usr/bin/usbd
+/usr/lib/pkgconfig/fs_mgr.pc
+/usr/lib/liblogwrap.so.0.0.0
+/usr/lib/libsysutils.so.0.0.0
+/usr/lib/libfs_mgr.so.0.0.0
+/usr/lib/libsysutils.so.0

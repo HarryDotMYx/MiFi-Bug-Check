@@ -1,0 +1,2 @@
+/usr/bin/atfwd_daemon
+/etc/initscripts/start_atfwd_daemon

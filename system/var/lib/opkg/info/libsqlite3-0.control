@@ -1,0 +1,14 @@
+Package: libsqlite3-0
+Version: 3:3.23.1-r0
+Description: Embeddable SQL database engine
+ Embeddable SQL database engine.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PD
+Architecture: armv7at2hf-neon
+OE: sqlite3
+Homepage: http://www.sqlite.org
+Depends: libc6 (>= 2.28)
+Provides: libsqlite3
+Source: sqlite3_3.23.1.bb

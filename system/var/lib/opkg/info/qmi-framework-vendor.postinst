@@ -1,0 +1,9 @@
+set -e
+     if false; then
+      [ -n "$D" ] && OPT="-r $D" || OPT="-s"
+      update-rc.d $OPT -f init_irsc_util remove
+      update-rc.d $OPT init_irsc_util start 29 2 3 4 5 . stop 71 0 1 6 .
+     fi
+if [ x"$D" = "x" ]; then
+	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
+fi

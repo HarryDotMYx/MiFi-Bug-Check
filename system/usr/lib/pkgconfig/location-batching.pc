@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: location-batching
+Description: QTI GPS Batching
+Version: @VERSION
+Libs: -L${libdir} -lbatching
+Cflags: -I${includedir}/location-batching

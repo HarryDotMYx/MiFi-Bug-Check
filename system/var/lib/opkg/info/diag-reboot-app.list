@@ -1,0 +1,4 @@
+/lib/systemd/system/ffbm.target.wants/diag-reboot-app.service
+/usr/bin/diagrebootapp
+/lib/systemd/system/diag-reboot-app.service
+/lib/systemd/system/multi-user.target.wants/diag-reboot-app.service

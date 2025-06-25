@@ -1,0 +1,14 @@
+Package: libsys-info-cache1
+Version: git-r1
+Description: sys-info-cache version git-r1
+ GPS Sys Info cache
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: sys-info-cache
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), libcutils0 (>= 1.0), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libgps-utils1 (>= git), libloc-core1 (>= git), liblog0 (>= 1.0), libstdc++6 (>= 8.2.0)
+Provides: sys-info-cache
+Source: sys-info-cache_git.bb

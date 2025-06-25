@@ -1,0 +1,18 @@
+#!/bin/sh
+#
+# Copyright (c) 2020 Qualcomm Technologies, Inc.
+# All Rights Reserved.
+# Confidential and Proprietary - Qualcomm Technologies, Inc.
+#
+
+echo -n "pcie-diag is invoked" > /dev/kmsg
+if [ -e /data/debug_transport.conf ]; then
+    debug_transport=`cat /data/debug_transport.conf`
+    echo  -n "pcie-diag: Debug transport for Diag is $debug_transport" > /dev/kmsg
+    if [ "$debug_transport" == "pcie" ]; then
+        echo -n "pcie-diag: test_diag is running in pcie mode" > /dev/kmsg
+        /usr/bin/test_diag -p 7
+    else
+        echo -n "pcie-diag: test_diag is not invoked" > /dev/kmsg
+    fi
+fi

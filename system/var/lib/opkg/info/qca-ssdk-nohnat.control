@@ -1,0 +1,12 @@
+Package: qca-ssdk-nohnat
+Version: 1.0-r0_perf_perf
+Description: qca-ssdk-nohnat version 1.0-r0_perf_perf
+ SSDK Switch Driver
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: ISC
+Architecture: sdxprairie
+OE: qca-ssdk-nohnat
+Depends: kernel-module-qca-ssdk-4.14.206-perf
+Source: qca-ssdk-nohnat.bb

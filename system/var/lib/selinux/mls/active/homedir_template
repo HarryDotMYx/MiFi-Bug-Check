@@ -1,0 +1,53 @@
+HOME_DIR/.+	system_u:object_r:user_home_t:s0
+HOME_DIR/.*/plugins/nppdf\.so	--	system_u:object_r:textrel_shlib_t:s0
+HOME_DIR/.*/plugins/nppdf\.so.*	--	system_u:object_r:textrel_shlib_t:s0
+HOME_DIR/((www)|(web)|(public_html))(/.+)?	system_u:object_r:httpd_user_content_t:s0
+HOME_DIR/.mozilla/plugins/nprhapengine\.so.*	--	system_u:object_r:textrel_shlib_t:s0
+HOME_DIR/((www)|(web)|(public_html))/cgi-bin(/.+)?	system_u:object_r:httpd_user_script_exec_t:s0
+HOME_DIR/((www)|(web)|(public_html))(/.*)?/\.htaccess	--	system_u:object_r:httpd_user_htaccess_t:s0
+HOME_DIR/((www)|(web)|(public_html))(/.*)?/logs(/.*)?	system_u:object_r:httpd_user_ra_content_t:s0
+/run/user/%{USERID}	-d	system_u:object_r:user_runtime_t:s0
+/tmp/xses-%{USERNAME}	--	system_u:object_r:xsession_log_t:s0
+/run/user/%{USERID}/.+	<<none>>
+/run/user/%{USERID}/orcexec\..*	--	system_u:object_r:gstreamer_orcexec_t:s0
+/run/user/%{USERID}/pulse(/.*)?	system_u:object_r:pulseaudio_tmp_t:s0
+/run/user/%{USERID}/keyring(/.*)?	system_u:object_r:gnome_keyring_tmp_t:s0
+HOME_DIR/\.pki(/.*)?	system_u:object_r:user_cert_t:s0
+HOME_DIR/\.ssh(/.*)?	system_u:object_r:ssh_home_t:s0
+/tmp/gconfd-%{USERNAME}	-d	system_u:object_r:user_tmp_t:s0
+/tmp/gconfd-%{USERNAME}/.*	--	system_u:object_r:gconf_tmp_t:s0
+HOME_DIR/\.dbus(/.*)?	system_u:object_r:session_dbusd_home_t:s0
+HOME_DIR/\.xauth.*	--	system_u:object_r:xauth_home_t:s0
+HOME_DIR/\.fonts(/.*)?	system_u:object_r:user_fonts_t:s0
+HOME_DIR/\.gconf(/.*)?	system_u:object_r:gconf_home_t:s0
+HOME_DIR/\.gnome(/.*)?	system_u:object_r:gnome_home_t:s0
+HOME_DIR/\.pulse(/.*)?	system_u:object_r:pulseaudio_home_t:s0
+HOME_DIR/Maildir(/.*)?	system_u:object_r:mail_home_rw_t:s0
+HOME_DIR/\.gconfd(/.*)?	system_u:object_r:gconf_home_t:s0
+HOME_DIR/\.gnome2(/.*)?	system_u:object_r:gnome_home_t:s0
+HOME_DIR/orcexec\..*	system_u:object_r:gstreamer_orcexec_t:s0
+HOME_DIR/\.forward[^/]*	--	system_u:object_r:mail_home_t:s0
+HOME_DIR/\.maildir(/.*)?	system_u:object_r:mail_home_rw_t:s0
+HOME_DIR/\.Xauthority.*	--	system_u:object_r:xauth_home_t:s0
+HOME_DIR/\.serverauth.*	--	system_u:object_r:xauth_home_t:s0
+HOME_DIR/\.fonts/auto(/.*)?	system_u:object_r:user_fonts_cache_t:s0
+HOME_ROOT/lost\+found/.*	<<none>>
+HOME_DIR/\.ICEauthority.*	--	system_u:object_r:iceauth_home_t:s0
+HOME_DIR/\.fonts\.cache-.*	--	system_u:object_r:user_fonts_cache_t:s0
+HOME_DIR/\.config/pulse(/.*)?	--	system_u:object_r:pulseaudio_home_t:s0
+HOME_DIR/\.gnome2_private(/.*)?	system_u:object_r:gnome_home_t:s0
+HOME_DIR/\.gnome2/keyrings(/.*)?	system_u:object_r:gnome_keyring_home_t:s0
+HOME_DIR	-d	system_u:object_r:user_home_dir_t:s0-s15:c0.c1023
+HOME_ROOT	-d	system_u:object_r:home_root_t:s0-s15:c0.c1023
+HOME_ROOT	-l	system_u:object_r:home_root_t:s0
+HOME_DIR/\.dmrc	--	system_u:object_r:dmrc_home_t:s0
+HOME_DIR/\.ppprc	--	system_u:object_r:ppp_home_t:s0
+HOME_DIR/\.mailrc	--	system_u:object_r:mail_home_t:s0
+HOME_DIR/\.esd_auth	--	system_u:object_r:pulseaudio_home_t:s0
+HOME_ROOT/\.journal	<<none>>
+HOME_DIR/\.fonts\.conf	--	system_u:object_r:user_fonts_config_t:s0
+HOME_DIR/dead\.letter	--	system_u:object_r:mail_home_t:s0
+HOME_ROOT/lost\+found	-d	system_u:object_r:lost_found_t:s15:c0.c1023
+HOME_DIR/\.esmtp_queue	--	system_u:object_r:mail_home_t:s0
+HOME_DIR/\.pulse-cookie	--	system_u:object_r:pulseaudio_home_t:s0
+HOME_DIR/\.xsession-errors	--	system_u:object_r:xsession_log_t:s0

@@ -1,0 +1,13 @@
+Package: qmi
+Version: git-r13
+Description: qmi version git-r13
+ Qualcomm MSM Interface (QMI) Library
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: sdxprairie
+OE: qmi
+Homepage: http://support.cdmatech.com
+Depends: libc6 (>= 2.28), libconfigdb0 (>= git), libdiag1 (>= git), libdsutils1 (>= git)
+Source: qmi_git.bb

@@ -1,0 +1,21 @@
+# Copyright (c) 2019 Qualcomm Technologies, Inc.
+# All Rights Reserved.
+# Confidential and Proprietary - Qualcomm Technologies, Inc.
+#
+
+[Unit]
+Description=Charger Policy Service
+SourcePath=/usr/bin/chg-policy
+
+[Service]
+User=system
+Group=system
+SupplementaryGroups=wakelock kmsg
+Restart=always
+RemainAfterExit=yes
+CapabilityBoundingSet=CAP_BLOCK_SUSPEND CAP_WAKE_ALARM
+AmbientCapabilities=CAP_BLOCK_SUSPEND CAP_WAKE_ALARM
+ExecStart=/usr/bin/chg-policy
+
+[Install]
+WantedBy=multi-user.target

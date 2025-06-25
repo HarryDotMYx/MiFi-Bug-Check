@@ -1,0 +1,13 @@
+Package: kernel-module-nf-nat-rtsp-4.14.206-perf
+Version: 3.7-r6
+Description: nf-nat-rtsp kernel module
+ nf-nat-rtsp kernel module; RTSP network address translation module
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: rtsp-alg
+Depends: kernel-4.14.206-perf, kernel-module-nf-conntrack-rtsp-4.14.206-perf
+Provides: kernel-module-nf-nat-rtsp
+Source: rtsp-alg_3.7.bb

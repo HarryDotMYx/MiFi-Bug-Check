@@ -1,0 +1,19 @@
+# Copyright (c) 2019 Qualcomm Technologies, Inc.
+# All Rights Reserved.
+# Confidential and Proprietary - Qualcomm Technologies, Inc.
+#
+
+[Unit]
+Description= Staring tftp server
+DefaultDependencies=no
+After=qrtr_ns.service persist.mount data.mount label-data.service
+Before=init_sys_mss.service
+SourcePath=/sbin/tftp_server
+
+[Service]
+Restart=on-failure
+ExecStart=/sbin/tftp_server
+
+[Install]
+WantedBy=sysinit.target
+

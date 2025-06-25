@@ -1,0 +1,13 @@
+Package: aqc-ipa-offload
+Version: 1.0-r0_perf_perf
+Description: AQC IPA Offload
+ AQC IPA Offload.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: aqc-ipa-offload
+Depends: kernel-module-aqc-ipa-offload-4.14.206-perf
+Provides: kernel-module-aqc_ipa_offload
+Source: aqc-ipa-offload_1.0.bb

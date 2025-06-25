@@ -1,0 +1,5 @@
+/etc/data/
+/lib/systemd/system/mka-supplicant@.service
+/lib/systemd/system/mka-authenticator@.service
+/etc/data/hostapd-eth0.conf
+/etc/data/wpa_supplicant-eth0.conf

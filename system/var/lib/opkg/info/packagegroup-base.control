@@ -1,0 +1,13 @@
+Package: packagegroup-base
+Version: 1.0-r83
+Description: Merge machine and distro options to create a basic machine task/package
+ Merge machine and distro options to create a basic machine task/package.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: sdxprairie
+OE: packagegroup-base
+Depends: module-init-tools, packagegroup-base-ipv6, packagegroup-base-keyboard, packagegroup-distro-base, packagegroup-machine-base
+Recommends: kernel-module-input, kernel-module-nls-utf8, kernel-module-rtc-dev, kernel-module-rtc-proc, kernel-module-rtc-sysfs, kernel-module-uinput, kernel-module-unix
+Source: packagegroup-base.bb

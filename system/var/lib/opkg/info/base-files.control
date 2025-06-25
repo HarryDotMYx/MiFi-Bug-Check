@@ -1,0 +1,12 @@
+Package: base-files
+Version: 3.0.14-r89
+Description: Miscellaneous files for the base system
+ The base-files package creates the basic system directory structure and
+ provides a small set of key configuration files for the system.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: base-files
+Source: base-files_3.0.14.bb

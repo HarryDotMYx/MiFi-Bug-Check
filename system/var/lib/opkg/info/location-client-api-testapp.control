@@ -1,0 +1,12 @@
+Package: location-client-api-testapp
+Version: git-r1
+Description: location-client-api-testapp version git-r1
+ location client api test application
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: sdxprairie
+OE: location-client-api-testapp
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libgps-utils1 (>= git), liblocation-client-api1 (>= git), liblocation-integration-api1 (>= git), libstdc++6 (>= 8.2.0)
+Source: location-client-api-testapp_git.bb

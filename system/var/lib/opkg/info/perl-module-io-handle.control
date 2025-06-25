@@ -1,0 +1,13 @@
+Package: perl-module-io-handle
+Version: 5.24.4-r0
+Description: perl module io-handle
+ perl module io-handle
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Artistic-1.0 | GPL-1.0+
+Architecture: armv7at2hf-neon
+OE: perl
+Homepage: http://www.perl.org/
+Depends: perl, perl-module-carp, perl-module-exporter, perl-module-io, perl-module-io-file, perl-module-selectsaver, perl-module-strict, perl-module-symbol
+Source: perl_5.24.4.bb

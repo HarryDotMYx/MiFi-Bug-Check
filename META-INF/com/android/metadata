@@ -1,0 +1,5 @@
+ota-required-cache=0
+ota-type=FILE
+post-build=None
+post-timestamp=None
+pre-device=None

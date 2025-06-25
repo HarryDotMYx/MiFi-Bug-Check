@@ -1,0 +1,16 @@
+Package: initscripts-sushell
+Version: 1.0-r157
+Description: SysV init scripts
+ Initscripts provide the basic system startup initialization scripts for
+ the system.  These scripts include actions such as filesystem mounting,
+ fsck, RTC manipulation and other actions routinely performed at system
+ startup.  In addition, the scripts are also used during system shutdown
+ to reverse the actions performed at startup.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7at2hf-neon
+OE: initscripts
+Homepage: https://github.com/fedora-sysv/initscripts
+Source: initscripts_1.0.bb

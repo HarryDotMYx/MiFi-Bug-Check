@@ -1,0 +1,13 @@
+Package: r8125
+Version: 1.0-r0_perf_perf
+Description: R8125
+ R8125.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: sdxprairie
+OE: r8125
+Depends: kernel-module-r8125-4.14.206-perf
+Provides: kernel-module-r8125
+Source: r8125.bb
