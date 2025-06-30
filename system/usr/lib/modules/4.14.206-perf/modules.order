@@ -30,6 +30,3 @@ kernel/sound/core/snd-pcm.ko
 kernel/sound/core/snd-compress.ko
 kernel/sound/soc/snd-soc-core.ko
 kernel/net/netfilter/xt_physdev.ko
-kernel/net/ipv4/udp_tunnel.ko
-kernel/net/ipv6/ip6_udp_tunnel.ko
-kernel/net/wireguard/wireguard.ko

@@ -59,7 +59,6 @@ alias symbol:fal_port_powersave_set qca_ssdk
 alias symbol:fal_qos_port_group_set qca_ssdk
 alias symbol:snd_timer_pause snd_timer
 alias symbol:__qdf_nbuf_data_is_ipv4_eapol_pkt wlan
-alias symbol:udp_tun_rx_dst udp_tunnel
 alias symbol:__qdf_nbuf_unmap_tso_segment wlan
 alias symbol:wlan_sm_create wlan
 alias symbol:nvram_set nvram_linux
@@ -556,11 +555,9 @@ alias symbol:qdf_runtime_pm_get wlan
 alias symbol:fal_fdb_port_maclimit_ctrl_set qca_ssdk
 alias symbol:fal_trunk_failover_enable qca_ssdk
 alias symbol:hif_dump_ce_registers wlan
-alias symbol:udp_sock_create6 ip6_udp_tunnel
 alias symbol:fal_ac_group_buffer_set qca_ssdk
 alias symbol:snd_soc_put_xr_sx snd_soc_core
 alias symbol:fal_bm_bufgroup_buffer_get qca_ssdk
-alias symbol:udp_tunnel_notify_add_rx_port udp_tunnel
 alias symbol:dapm_mark_endpoints_dirty snd_soc_core
 alias symbol:fal_bm_port_counter_get qca_ssdk
 alias symbol:snd_soc_write snd_soc_core
@@ -664,7 +661,6 @@ alias symbol:qdf_list_insert_back_size wlan
 alias symbol:wlan_objmgr_get_vdev_by_id_from_pdev wlan
 alias symbol:snd_soc_dapm_sync_unlocked snd_soc_core
 alias symbol:ucfg_dfs_override_cac_timeout wlan
-alias symbol:setup_udp_tunnel_sock udp_tunnel
 alias symbol:fal_servcode_loopcheck_en qca_ssdk
 alias symbol:rtl8125_disable_event r8125
 alias symbol:wlan_objmgr_pdev_obj_create wlan
@@ -719,7 +715,6 @@ alias symbol:wmi_unified_register_module wlan
 alias symbol:wlan_crypto_vdev_has_mcastcipher wlan
 alias symbol:qdf_debugfs_create_u16 wlan
 alias symbol:wlan_objmgr_peer_release_ref wlan
-alias symbol:udp_tunnel_drop_rx_port udp_tunnel
 alias symbol:qdf_wake_lock_timeout_acquire wlan
 alias symbol:snd_soc_get_strobe snd_soc_core
 alias symbol:fal_pppoe_session_table_add qca_ssdk
@@ -838,7 +833,6 @@ alias symbol:utils_dfs_clear_nol_channels wlan
 alias symbol:qcrypto_cipher_set_flag qcrypto
 alias symbol:tgt_dfs_set_current_channel wlan
 alias symbol:snd_timer_global_register snd_timer
-alias symbol:udp_tunnel_xmit_skb udp_tunnel
 alias symbol:wlan_crypto_vdev_has_mgmtcipher wlan
 alias symbol:ppe_port_vlan_vsi_get qca_ssdk
 alias symbol:snd_soc_component_test_bits snd_soc_core
@@ -934,7 +928,6 @@ alias symbol:wlan_objmgr_get_vdev_by_macaddr_from_psoc wlan
 alias symbol:dapm_regulator_event snd_soc_core
 alias symbol:fal_queue_shaper_set qca_ssdk
 alias symbol:lmac_get_wmi_hdl wlan
-alias symbol:udp_tunnel_sock_release udp_tunnel
 alias symbol:wlan_objmgr_psoc_check_for_peer_leaks wlan
 alias symbol:target_if_spectral_send_intf_found_msg wlan
 alias symbol:qdf_debugfs_get_root wlan
@@ -1103,19 +1096,16 @@ alias symbol:htc_connect_service wlan
 alias symbol:fal_port_phy_id_get qca_ssdk
 alias symbol:fal_acl_rule_delete qca_ssdk
 alias symbol:fal_fdb_entry_search qca_ssdk
-alias symbol:udp_tunnel_notify_del_rx_port udp_tunnel
 alias symbol:snd_ctl_find_numid snd
 alias symbol:wlan_crypto_get_key_type wlan
 alias symbol:wlan_vdev_mlme_get_ext_hdl wlan
 alias symbol:qdf_idr_destroy wlan
 alias symbol:qdf_try_allowing_sleep wlan
 alias symbol:snd_soc_component_init_regmap snd_soc_core
-alias symbol:udp_tunnel6_xmit_skb ip6_udp_tunnel
 alias symbol:fal_qm_port_source_profile_set qca_ssdk
 alias symbol:qce_enable_clk qce50
 alias symbol:fal_servcode_loopcheck_status_get qca_ssdk
 alias symbol:snd_pcm_kernel_ioctl snd_pcm
-alias symbol:udp_tunnel_push_rx_port udp_tunnel
 alias symbol:snd_pcm_hw_constraint_integer snd_pcm
 alias symbol:qdf_register_self_recovery_callback wlan
 alias symbol:snd_soc_of_parse_audio_simple_widgets snd_soc_core
@@ -1301,7 +1291,6 @@ alias symbol:fal_qos_cosmap_flow_set qca_ssdk
 alias symbol:snd_dma_alloc_pages_fallback snd_pcm
 alias symbol:snd_soc_dapm_nc_pin snd_soc_core
 alias symbol:fal_port_interface_mode_set qca_ssdk
-alias symbol:udp_sock_create4 udp_tunnel
 alias symbol:qdf_wake_lock_release wlan
 alias symbol:u_audio_stop_playback u_audio
 alias symbol:fal_queue_shaper_token_number_set qca_ssdk

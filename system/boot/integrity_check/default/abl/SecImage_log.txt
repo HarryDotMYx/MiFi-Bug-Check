@@ -1,6 +1,6 @@
-image is stored at /home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/integrity_check/default/abl/abl.elf
-Image /home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/integrity_check/default/abl/abl.elf is not signed
-Image /home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/integrity_check/default/abl/abl.elf is not encrypted
+image is stored at /home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/integrity_check/default/abl/abl.elf
+Image /home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/integrity_check/default/abl/abl.elf is not signed
+Image /home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/integrity_check/default/abl/abl.elf is not encrypted
 
 Base Properties: 
 | Integrity Check             | True  |

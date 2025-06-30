@@ -1,8 +1,8 @@
-Performing OEM sign on image: /home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/abl.elf
-Signed & Encrypted image is stored at /home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/sign_and_encrypt/default/abl/abl.elf
+Performing OEM sign on image: /home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/abl.elf
+Signed & Encrypted image is stored at /home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/sign_and_encrypt/default/abl/abl.elf
 OEM signed image with ECDSA
-Image /home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/sign_and_encrypt/default/abl/abl.elf signature is valid
-Image /home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/sign_and_encrypt/default/abl/abl.elf is encrypted
+Image /home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/sign_and_encrypt/default/abl/abl.elf signature is valid
+Image /home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/sign_and_encrypt/default/abl/abl.elf is encrypted
 
 Base Properties: 
 | Integrity Check             | True  |

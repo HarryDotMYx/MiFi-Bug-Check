@@ -23,8 +23,6 @@ alias devname:snd/timer snd_timer
 alias platform:soc-audio snd_soc_core
 alias ipt_physdev xt_physdev
 alias ip6t_physdev xt_physdev
-alias rtnl-link-wireguard wireguard
-alias net-pf-16-proto-16-family-wireguard wireguard
 alias pci:v000010ECd00003000sv*sd*bc*sc*i* r8125
 alias pci:v000010ECd00008162sv*sd*bc*sc*i* r8125
 alias pci:v000010ECd00008125sv*sd*bc*sc*i* r8125

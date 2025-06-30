@@ -1,18 +1,18 @@
-Logging to /home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/sign/SecImage_log.txt
+Logging to /home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/sign/SecImage_log.txt
 
 
-     SecImage v5.62 launched as: "/home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/sectools.py secimage -i /home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/abl.elf -g abl -c /home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/config/integration/secimage_eccv3.xml --cfg_soc_hw_version 0x600B0000 --cfg_soc_vers 0x600B --cfg_in_use_soc_hw_version enable -s -o /home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/sign"
+     SecImage v5.62 launched as: "/home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/sectools.py secimage -i /home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/abl.elf -g abl -c /home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/config/integration/secimage_eccv3.xml --cfg_soc_hw_version 0x600B0000 --cfg_soc_vers 0x600B --cfg_in_use_soc_hw_version enable -s -o /home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/sign"
 
-Config path is set to: /home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/config/integration/secimage_eccv3.xml
+Config path is set to: /home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/config/integration/secimage_eccv3.xml
 WARNING: OEM ID is set to 0 for sign_id "abl"
 ------------------------------------------------------
-Processing 1/1: /home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/abl.elf
+Processing 1/1: /home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/abl.elf
 
-Performing OEM sign on image: /home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/abl.elf
-Signed image is stored at /home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/sign/default/abl/abl.elf
+Performing OEM sign on image: /home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/abl.elf
+Signed image is stored at /home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/sign/default/abl/abl.elf
 OEM signed image with ECDSA
-Image /home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/sign/default/abl/abl.elf signature is valid
-Image /home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/sign/default/abl/abl.elf is not encrypted
+Image /home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/sign/default/abl/abl.elf signature is valid
+Image /home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/sign/default/abl/abl.elf is not encrypted
 
 Base Properties: 
 | Integrity Check             | True  |
@@ -96,7 +96,7 @@ Metadata:
 
 SUMMARY:
 Following actions were performed: "sign, validate"
-Output is saved at: /home/share/SDX55_1.4_module/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/sign
+Output is saved at: /home/share/sdx55/1/sdx55-1.4/SDX55_apps/apps_proc/poky/build/tmp-glibc/work/sdxprairie-oe-linux-gnueabi/edk2/3.0-r1signed/image/boot/sign
 
 | Idx | SignId | Parse | Integrity | Sign | Encrypt |              Validate              |
 |     |        |       |           |      |         | Parse | Integrity | Sign | Encrypt |

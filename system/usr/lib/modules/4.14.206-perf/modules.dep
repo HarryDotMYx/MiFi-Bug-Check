@@ -30,9 +30,6 @@ kernel/sound/core/snd-pcm.ko: kernel/sound/core/snd-timer.ko kernel/sound/core/s
 kernel/sound/core/snd-compress.ko: kernel/sound/core/snd.ko kernel/sound/soundcore.ko
 kernel/sound/soc/snd-soc-core.ko: kernel/sound/core/snd-compress.ko kernel/sound/core/snd-pcm.ko kernel/sound/core/snd-timer.ko kernel/sound/core/snd.ko kernel/sound/soundcore.ko
 kernel/net/netfilter/xt_physdev.ko:
-kernel/net/ipv4/udp_tunnel.ko:
-kernel/net/ipv6/ip6_udp_tunnel.ko:
-kernel/net/wireguard/wireguard.ko: kernel/net/ipv6/ip6_udp_tunnel.ko kernel/net/ipv4/udp_tunnel.ko
 extra/wlan-mag.ko:
 extra/embms_kernel.ko:
 extra/shortcut-fe-cm.ko: extra/shortcut-fe-ipv6.ko extra/shortcut-fe.ko
